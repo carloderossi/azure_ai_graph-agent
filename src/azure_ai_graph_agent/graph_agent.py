@@ -9,7 +9,7 @@ import networkx as nx
 
 from tools.search_tools import web_search, ms_docs_search
 from tools.graph import load_graph, compute_louvain_communities, attach_communities_to_nodes, compute_graph_diagnostics
-from tools.utils import save_investigation, log
+from tools.utils import save_investigation, log, get_month_year
 from tools.llm_graph import investigate_component, investigate_isolated_node, analyze_node
 
 from foundry_local_sdk import Configuration, FoundryLocalManager
@@ -79,7 +79,7 @@ def init_foundry_and_llm():
 # Prompt / chain
 # -----------------------------
 NODE_ANALYSIS_SYSTEM = """
-You are an expert on Azure AI, Azure ML, and Azure AI Foundry architecture.
+You are an expert on Azure AI, Azure ML, Azure AI Services and Microsoft Foundry (aka Azure AI Foundry) architecture.
 
 You are given:
 - A single node from a knowledge graph
@@ -87,7 +87,7 @@ You are given:
 - Optionally, some documentation URLs
 
 Your tasks:
-1. Decide whether this node and its edges faithfully represent Azure AI / Azure ML / Azure AI Foundry architecture.
+1. Decide whether this node and its edges faithfully represent Azure AI / Azure ML / Microsoft Foundry architecture {current_month}.
 2. Suggest fixes to the node (definition, category, edges) if needed.
 3. Suggest any additional relevant documentation URLs that should be attached to this node.
 
@@ -217,7 +217,6 @@ def main():
             node_lookup,
             G
         )
-
         community_results.append(result)
 
     save_investigation("disconnected_communities_analysis.json", community_results)

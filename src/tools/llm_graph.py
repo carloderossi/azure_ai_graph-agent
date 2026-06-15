@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-from tools.utils import log
+from tools.utils import log, get_month_year
 
 # -----------------------------
 # Node analysis
@@ -30,6 +30,7 @@ def analyze_node(llm_chain, node, G: nx.DiGraph):
             "node_json": node_json,
             "neighbors_json": neighbors_json,
             "docs_json": docs_json,
+            "current_month": get_month_year(),
         }
     )
     print(f"res='{result}'")

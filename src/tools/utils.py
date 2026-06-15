@@ -1,5 +1,5 @@
 import json
-from datetime import datetime
+from datetime import datetime, date
 
 # -----------------------------
 # Logger
@@ -19,3 +19,10 @@ def save_investigation(filename, data):
             indent=2,
             ensure_ascii=False
         )
+
+def get_month_year():
+    today = date.today()
+    formatted = today.strftime("%B %Y")
+
+    result = f"as of {formatted}"
+    return result
