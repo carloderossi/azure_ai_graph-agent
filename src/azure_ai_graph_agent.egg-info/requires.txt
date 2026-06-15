@@ -1,0 +1,8 @@
+foundry-local-sdk-winml
+openai
+pyaudio>=0.2.14
+langchain>=0.3.0
+langchain-openai>=0.1.0
+networkx>=3.2
+python-louvain>=0.16
+pydantic>=2.0

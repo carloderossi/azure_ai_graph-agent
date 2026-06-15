@@ -1,0 +1,28 @@
+[project]
+name = "azure-ai-graph-agent"
+version = "0.1.0"
+description = "Autonomous Azure AI/ML/Foundry graph validation agent using Foundry Local + LangChain"
+#readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "foundry-local-sdk-winml",
+    "openai",
+    "pyaudio>=0.2.14",
+    "langchain>=0.3.0",
+    "langchain-openai>=0.1.0",
+    "networkx>=3.2",
+    "python-louvain>=0.16",
+    "pydantic>=2.0",
+]
+
+
+[tool.uv]
+# valid options:
+#   first-index
+#   unsafe-any-match
+#   unsafe-first-match
+#   unsafe-best-match
+# index-strategy = "first-index"
+# optional: speed up installs
+#index-url = "https://pypi.org/simple"

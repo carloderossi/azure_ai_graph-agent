@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: azure-ai-graph-agent
+Version: 0.1.0
+Summary: Autonomous Azure AI/ML/Foundry graph validation agent using Foundry Local + LangChain
+Requires-Python: >=3.11
+Requires-Dist: foundry-local-sdk-winml
+Requires-Dist: openai
+Requires-Dist: pyaudio>=0.2.14
+Requires-Dist: langchain>=0.3.0
+Requires-Dist: langchain-openai>=0.1.0
+Requires-Dist: networkx>=3.2
+Requires-Dist: python-louvain>=0.16
+Requires-Dist: pydantic>=2.0
