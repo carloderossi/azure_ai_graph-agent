@@ -4,13 +4,14 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 from src.tools.graph import load_graph
-from src.azure_ai_graph_agent.graph_agent import GRAPH_PATH, prompt
+from src.azure_ai_graph_agent.graph_agent import GRAPH_PATH, prompt, build_chain
 from src.tools.llm_graph import analyze_node
 
 import json
 
 APP_NAME = "cdr-foundry-local"
-MODEL_ID = "qwen3.5-4b"
+MODEL_ID = "phi-4-mini" ## "qwen3.5-2b-text"
+### "qwen3.5-4b" a long useless philosofical answer
 ### "qwen3.5-2b-text"
 ## "phi-3-mini-128k" 
 ## "deepseek-r1-1.5b"  adds <think>....
@@ -51,7 +52,7 @@ llm = ChatOpenAI(
 
 print(f"PROMPT: \n{prompt}\n")
 
-llm_chain = prompt | llm | StrOutputParser()
+llm_chain = build_chain(llm)
 
 print(f"LLM CHAIN: \n{llm_chain}\n")
 

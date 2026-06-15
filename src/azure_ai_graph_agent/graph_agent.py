@@ -5,6 +5,7 @@ import sys
 
 from pathlib import Path
 
+import re
 import networkx as nx
 
 from src.tools.search_tools import web_search, ms_docs_search
@@ -25,6 +26,17 @@ APP_NAME = "cdr-foundry-local"
 ## phi model runs on NPU, do not follow all instructions
 ## qwen3.5 on GPU: faster and compliance output
 MODEL_ID = "qwen3.5-2b-text" ###"phi-4-mini" #"deepseek-r1-1.5b" #"qwen2.5-0.5b"  # replace with 7B–14B model when available
+
+def clean_output(text: str) -> str:
+    # remove <think> blocks
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
+    # strip markdown fences
+    text = text.replace("```json", "").replace("```", "")
+    return text.strip()
+
+class CleanParser(StrOutputParser):
+    def parse(self, text):
+        return clean_output(text)
 
 # -----------------------------
 # Foundry Local + LangChain setup
@@ -131,7 +143,7 @@ prompt = ChatPromptTemplate.from_messages(
 # print(f"PROMPT: {prompt}")
 
 def build_chain(llm: ChatOpenAI):
-    return prompt | llm | StrOutputParser()
+    return prompt | llm | StrOutputParser() | CleanParser()
 
 
 # -----------------------------
@@ -250,6 +262,7 @@ def main():
             f"Existing docs = {docs_num}"
         )
         if docs_num < 5:
+            print("Calling search tools...")
             tool_enrichment = enrich_with_tools(node, feedback)
         
         #Attach feedback + tool enrichment to node for now
