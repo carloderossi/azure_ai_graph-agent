@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-from tools.utils import log, get_month_year
+from src.tools.utils import log, get_month_year
 
 # -----------------------------
 # Node analysis

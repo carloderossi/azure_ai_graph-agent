@@ -127,7 +127,7 @@
     "long_description": "An Azure region is a set of datacenters deployed within a latency-defined perimeter. AI-300 and AI-103 workloads must choose regions that support Azure Machine Learning, Azure OpenAI, Azure AI Search, and other AI services, while meeting data residency and compliance requirements.",
     "docs_links": [
       {
-        "title": "Azure global infrastructure – regions",
+        "title": "Azure global infrastructure \u2013 regions",
         "url": "https://learn.microsoft.com/azure/reliability/regions"
       }
     ],
@@ -759,7 +759,8 @@
       "az000183",
       "az000186",
       "az000228",
-      "az000259"
+      "az000259",
+      "az000254"
     ],
     "category": "Machine Learning; Model",
     "definition": "A trained machine learning model artifact managed by Azure ML.",
@@ -1654,7 +1655,8 @@
     "label": "Agent Policy Engine",
     "from": [
       "az000171",
-      "az000172"
+      "az000172",
+      "az000230"
     ],
     "to": [
       "az000008",
@@ -1723,7 +1725,7 @@
     "long_description": "Agent Sessions maintain context, memory, and state across multiple interactions. They support long-running tasks, multi-step reasoning, and persistent agent identity.",
     "docs_links": [
       {
-        "title": "Agent Framework – AgentSession for conversation context",
+        "title": "Agent Framework \u2013 AgentSession for conversation context",
         "url": "https://learn.microsoft.com/dotnet/api/microsoft.agents.core.agentsession"
       }
     ],
@@ -1751,7 +1753,7 @@
     "long_description": "The Agent State Store maintains short-term and long-term memory, including variables, intermediate results, and contextual embeddings. It enables continuity across agent tasks.",
     "docs_links": [
       {
-        "title": "Agent Framework – State management",
+        "title": "Agent Framework \u2013 State management",
         "url": "https://learn.microsoft.com/azure/ai-foundry/agents/state-management"
       }
     ],
@@ -2075,7 +2077,7 @@
     "long_description": "Orchestration Steps represent atomic operations such as model inference, agent invocation, data transformation, or tool execution. They support parallelism and conditional logic.",
     "docs_links": [
       {
-        "title": "Orchestration workflow – step definition and patterns",
+        "title": "Orchestration workflow \u2013 step definition and patterns",
         "url": "https://learn.microsoft.com/azure/ai-services/language-service/orchestration-workflow/how-to/create-project"
       }
     ],
@@ -2118,7 +2120,8 @@
     "id": "az000190",
     "label": "AI Safety Guardrail",
     "from": [
-      "az000001"
+      "az000001",
+      "az000238"
     ],
     "to": [
       "az000191"
@@ -2146,7 +2149,8 @@
     "from": [
       "az000001",
       "az000002",
-      "az000190"
+      "az000190",
+      "az000237"
     ],
     "to": [
       "az000008",
@@ -2461,7 +2465,8 @@
     "label": "Prompt Optimization Pipeline",
     "from": [],
     "to": [
-      "az000204"
+      "az000204",
+      "az000037"
     ],
     "category": "Prompting; Optimization",
     "definition": "A pipeline that automatically optimizes prompts for accuracy, safety, and cost.",
@@ -2486,7 +2491,9 @@
     "from": [
       "az000203"
     ],
-    "to": [],
+    "to": [
+      "az000040"
+    ],
     "category": "Prompting; Optimization",
     "definition": "A report summarizing prompt performance, evaluation metrics, and recommended improvements.",
     "long_description": "Prompt Optimization Reports include accuracy metrics, safety scores, latency measurements, and cost analysis. They guide teams in selecting optimal prompt configurations.",
@@ -2661,7 +2668,8 @@
     "id": "az000211",
     "label": "AI Governance Policy",
     "from": [
-      "az000259"
+      "az000259",
+      "az000255"
     ],
     "to": [
       "az000212"
@@ -2711,7 +2719,9 @@
     "id": "az000213",
     "label": "MAI Model Catalog",
     "from": [
-      "az000256c"
+      "az000256c",
+      "az000223",
+      "az000224"
     ],
     "to": [
       "az000214",
@@ -2772,7 +2782,7 @@
     ],
     "category": "MAI Platform; Models",
     "definition": "A specialized version of a MAI model optimized for specific tasks or modalities.",
-    "long_description": "MAI Model Variants include task‑optimized, domain‑specific, and resource‑optimized versions of MAI‑1 models. They support fine‑tuning, adapters, and safety layers.",
+    "long_description": "MAI Model Variants include task\u2011optimized, domain\u2011specific, and resource\u2011optimized versions of MAI\u20111 models. They support fine\u2011tuning, adapters, and safety layers.",
     "docs_links": [
       {
         "title": "MAI model variants (MAI-Image-2 vs MAI-Image-2e)",
@@ -2797,11 +2807,11 @@
       "az000217"
     ],
     "category": "MAI Platform; Adapters",
-    "definition": "A lightweight adapter enabling efficient fine‑tuning of MAI models.",
-    "long_description": "MAI Model Adapters support LoRA, QLoRA, and task‑specific parameter‑efficient tuning. They allow organizations to customize MAI models without retraining the full model.",
+    "definition": "A lightweight adapter enabling efficient fine\u2011tuning of MAI models.",
+    "long_description": "MAI Model Adapters support LoRA, QLoRA, and task\u2011specific parameter\u2011efficient tuning. They allow organizations to customize MAI models without retraining the full model.",
     "docs_links": [
       {
-        "title": "Semantic Kernel – Vector store abstractions",
+        "title": "Semantic Kernel \u2013 Vector store abstractions",
         "url": "https://learn.microsoft.com/semantic-kernel/ai-orchestration/vector-store-connectors/"
       }
     ],
@@ -2879,7 +2889,7 @@
     "long_description": "MAI System Configurations define memory allocation, safety rules, adapter loading, and runtime behavior for MAI deployments across cloud and edge environments.",
     "docs_links": [
       {
-        "title": "Agent Framework – System configuration",
+        "title": "Agent Framework \u2013 System configuration",
         "url": "https://learn.microsoft.com/dotnet/api/microsoft.agents.core.agentsystem"
       }
     ],
@@ -2893,7 +2903,7 @@
   },
   {
     "id": "az000220",
-    "label": "MAI‑1 Base",
+    "label": "MAI\u20111 Base",
     "from": [
       "az000256c"
     ],
@@ -2902,8 +2912,8 @@
       "az000222"
     ],
     "category": "MAI Models; Foundation Models",
-    "definition": "The base version of the MAI‑1 model family.",
-    "long_description": "MAI‑1 Base is a general‑purpose foundation model supporting text, reasoning, and multimodal extensions. It serves as the core for MAI‑1 variants and adapters.",
+    "definition": "The base version of the MAI\u20111 model family.",
+    "long_description": "MAI\u20111 Base is a general\u2011purpose foundation model supporting text, reasoning, and multimodal extensions. It serves as the core for MAI\u20111 variants and adapters.",
     "docs_links": [
       {
         "title": "MAI-Transcribe-1 (MAI-1 series models)",
@@ -2920,7 +2930,7 @@
   },
   {
     "id": "az000221",
-    "label": "MAI‑1 Instruct",
+    "label": "MAI\u20111 Instruct",
     "from": [
       "az000220"
     ],
@@ -2928,8 +2938,8 @@
       "az000222"
     ],
     "category": "MAI Models; Instruction-Tuned",
-    "definition": "An instruction‑tuned version of MAI‑1 optimized for conversational and agentic tasks.",
-    "long_description": "MAI‑1 Instruct is fine‑tuned for instruction following, reasoning, and agent workflows. It includes safety tuning and improved tool‑use capabilities.",
+    "definition": "An instruction\u2011tuned version of MAI\u20111 optimized for conversational and agentic tasks.",
+    "long_description": "MAI\u20111 Instruct is fine\u2011tuned for instruction following, reasoning, and agent workflows. It includes safety tuning and improved tool\u2011use capabilities.",
     "docs_links": [
       {
         "title": "MAI-Voice-1 (MAI-1 Instruct equivalent)",
@@ -2946,15 +2956,15 @@
   },
   {
     "id": "az000222",
-    "label": "MAI‑1 Reasoning",
+    "label": "MAI\u20111 Reasoning",
     "from": [
       "az000220",
       "az000221"
     ],
     "to": [],
     "category": "MAI Models; Reasoning",
-    "definition": "A reasoning‑optimized MAI‑1 variant for complex problem solving.",
-    "long_description": "MAI‑1 Reasoning enhances chain‑of‑thought, multi‑step planning, and symbolic reasoning. It is used in agentic systems requiring high‑precision decision making.",
+    "definition": "A reasoning\u2011optimized MAI\u20111 variant for complex problem solving.",
+    "long_description": "MAI\u20111 Reasoning enhances chain\u2011of\u2011thought, multi\u2011step planning, and symbolic reasoning. It is used in agentic systems requiring high\u2011precision decision making.",
     "docs_links": [
       {
         "title": "MAI-1 Reasoning (in the context of MAI model family)",
@@ -2971,14 +2981,15 @@
   },
   {
     "id": "az000223",
-    "label": "MAI‑1 Vision",
+    "label": "MAI\u20111 Vision",
     "from": [],
     "to": [
-      "az000224"
+      "az000224",
+      "az000213"
     ],
     "category": "MAI Models; Vision",
-    "definition": "A multimodal MAI‑1 variant optimized for image understanding and visual reasoning.",
-    "long_description": "MAI‑1 Vision supports image captioning, object detection, OCR, visual question answering, and multimodal embeddings. It integrates with Azure AI Vision and MAI Runtime.",
+    "definition": "A multimodal MAI\u20111 variant optimized for image understanding and visual reasoning.",
+    "long_description": "MAI\u20111 Vision supports image captioning, object detection, OCR, visual question answering, and multimodal embeddings. It integrates with Azure AI Vision and MAI Runtime.",
     "docs_links": [
       {
         "title": "MAI-Image-2 vision model",
@@ -2995,14 +3006,16 @@
   },
   {
     "id": "az000224",
-    "label": "MAI‑1 Audio",
+    "label": "MAI\u20111 Audio",
     "from": [
       "az000223"
     ],
-    "to": [],
+    "to": [
+      "az000213"
+    ],
     "category": "MAI Models; Audio",
-    "definition": "An audio‑optimized MAI‑1 variant supporting speech recognition and synthesis.",
-    "long_description": "MAI‑1 Audio provides speech‑to‑text, text‑to‑speech, speaker identification, and audio embeddings. It integrates with Azure AI Speech and MAI Runtime.",
+    "definition": "An audio\u2011optimized MAI\u20111 variant supporting speech recognition and synthesis.",
+    "long_description": "MAI\u20111 Audio provides speech\u2011to\u2011text, text\u2011to\u2011speech, speaker identification, and audio embeddings. It integrates with Azure AI Speech and MAI Runtime.",
     "docs_links": [
       {
         "title": "MAI-Voice-1 audio model (text-to-speech)",
@@ -3019,7 +3032,7 @@
   },
   {
     "id": "az000225",
-    "label": "MAI‑1 Mini",
+    "label": "MAI\u20111 Mini",
     "from": [
       "az000030"
     ],
@@ -3027,8 +3040,8 @@
       "az000226"
     ],
     "category": "MAI Models; Lightweight",
-    "definition": "A compact MAI‑1 model variant optimized for edge and low‑latency workloads.",
-    "long_description": "MAI‑1 Mini is designed for mobile, embedded, and low‑resource environments. It supports text, reasoning, and lightweight multimodal tasks.",
+    "definition": "A compact MAI\u20111 model variant optimized for edge and low\u2011latency workloads.",
+    "long_description": "MAI\u20111 Mini is designed for mobile, embedded, and low\u2011resource environments. It supports text, reasoning, and lightweight multimodal tasks.",
     "docs_links": [
       {
         "title": "MAI-Image-2 mini variant",
@@ -3045,7 +3058,7 @@
   },
   {
     "id": "az000226",
-    "label": "MAI‑1 Small",
+    "label": "MAI\u20111 Small",
     "from": [
       "az000225"
     ],
@@ -3053,8 +3066,8 @@
       "az000227"
     ],
     "category": "MAI Models; Lightweight",
-    "definition": "A small MAI‑1 variant optimized for cost‑efficient inference.",
-    "long_description": "MAI‑1 Small balances performance and efficiency, supporting enterprise workloads, chatbots, and agentic reasoning with reduced compute requirements.",
+    "definition": "A small MAI\u20111 variant optimized for cost\u2011efficient inference.",
+    "long_description": "MAI\u20111 Small balances performance and efficiency, supporting enterprise workloads, chatbots, and agentic reasoning with reduced compute requirements.",
     "docs_links": [
       {
         "title": "MAI-Image-2 small variant",
@@ -3071,7 +3084,7 @@
   },
   {
     "id": "az000227",
-    "label": "MAI‑1 Medium",
+    "label": "MAI\u20111 Medium",
     "from": [
       "az000226"
     ],
@@ -3079,8 +3092,8 @@
       "az000228"
     ],
     "category": "MAI Models; General Purpose",
-    "definition": "A mid‑sized MAI‑1 variant offering strong reasoning and multimodal capabilities.",
-    "long_description": "MAI‑1 Medium is suitable for enterprise agents, RAG systems, and multimodal applications requiring balanced performance and cost.",
+    "definition": "A mid\u2011sized MAI\u20111 variant offering strong reasoning and multimodal capabilities.",
+    "long_description": "MAI\u20111 Medium is suitable for enterprise agents, RAG systems, and multimodal applications requiring balanced performance and cost.",
     "docs_links": [
       {
         "title": "MAI-Image-2 medium variant",
@@ -3097,7 +3110,7 @@
   },
   {
     "id": "az000228",
-    "label": "MAI‑1 Large",
+    "label": "MAI\u20111 Large",
     "from": [
       "az000227"
     ],
@@ -3105,8 +3118,8 @@
       "az000021"
     ],
     "category": "MAI Models; High Performance",
-    "definition": "A large MAI‑1 variant optimized for advanced reasoning and multimodal tasks.",
-    "long_description": "MAI‑1 Large provides state‑of‑the‑art reasoning, planning, and multimodal understanding. It powers complex agentic systems and enterprise AI applications.",
+    "definition": "A large MAI\u20111 variant optimized for advanced reasoning and multimodal tasks.",
+    "long_description": "MAI\u20111 Large provides state\u2011of\u2011the\u2011art reasoning, planning, and multimodal understanding. It powers complex agentic systems and enterprise AI applications.",
     "docs_links": [
       {
         "title": "MAI-Image-2 large variant",
@@ -3126,7 +3139,8 @@
     "label": "Agent Execution Sandbox",
     "from": [],
     "to": [
-      "az000230"
+      "az000230",
+      "az000135"
     ],
     "category": "AI Agents; Runtime",
     "definition": "A secure sandbox environment for executing agent code and tool calls.",
@@ -3151,7 +3165,9 @@
     "from": [
       "az000229"
     ],
-    "to": [],
+    "to": [
+      "az000173"
+    ],
     "category": "AI Agents; Governance",
     "definition": "A policy defining allowed operations, tools, and resource limits for agents.",
     "long_description": "Agent Execution Policies specify which tools agents may use, allowed API domains, rate limits, and safety constraints. They ensure controlled and compliant agent behavior.",
@@ -3201,14 +3217,15 @@
     "from": [
       "az000177",
       "az000199",
-      "az000231"
+      "az000231",
+      "az000248"
     ],
     "to": [
       "az000233"
     ],
     "category": "RAG; Planning",
     "definition": "A planner that determines the optimal retrieval strategy for a query.",
-    "long_description": "The RAG Query Planner selects between vector search, hybrid search, graph traversal, or multi‑step retrieval based on query intent and context.",
+    "long_description": "The RAG Query Planner selects between vector search, hybrid search, graph traversal, or multi\u2011step retrieval based on query intent and context.",
     "docs_links": [
       {
         "title": "RAG query planning and execution (Azure Databricks RAG chain)",
@@ -3334,7 +3351,8 @@
     "label": "MAI Policy Engine",
     "from": [],
     "to": [
-      "az000238"
+      "az000238",
+      "az000191"
     ],
     "category": "MAI Platform; Governance",
     "definition": "A policy engine enforcing safety, compliance, and operational rules for MAI systems.",
@@ -3359,7 +3377,9 @@
     "from": [
       "az000237"
     ],
-    "to": [],
+    "to": [
+      "az000190"
+    ],
     "category": "MAI Platform; Safety",
     "definition": "A guardrail engine applying safety filters and constraints to MAI model outputs.",
     "long_description": "The MAI Guardrail Engine enforces content filters, tool restrictions, and safety rules. It ensures safe and compliant behavior across MAI models and agent workflows.",
@@ -3441,7 +3461,7 @@
     ],
     "category": "RAG; GraphRAG",
     "definition": "A component that optimizes retrieved graph context for LLM consumption.",
-    "long_description": "The GraphRAG Context Optimizer selects the most relevant nodes, edges, and embeddings from a knowledge graph to construct high‑quality context windows for LLMs.",
+    "long_description": "The GraphRAG Context Optimizer selects the most relevant nodes, edges, and embeddings from a knowledge graph to construct high\u2011quality context windows for LLMs.",
     "docs_links": [
       {
         "title": "GraphRAG context optimization (lightweight knowledge graph)",
@@ -3464,7 +3484,7 @@
     ],
     "to": [],
     "category": "RAG; GraphRAG",
-    "definition": "A fusion engine that merges graph‑based and vector‑based retrieval results.",
+    "definition": "A fusion engine that merges graph\u2011based and vector\u2011based retrieval results.",
     "long_description": "The GraphRAG Fusion Engine combines graph traversal outputs, vector search results, and semantic ranking to produce optimal context for LLM reasoning.",
     "docs_links": [
       {
@@ -3585,7 +3605,8 @@
     "label": "RAG Rewriter",
     "from": [],
     "to": [
-      "az000248"
+      "az000248",
+      "az000081"
     ],
     "category": "RAG; Optimization",
     "definition": "A component that rewrites user queries to improve retrieval accuracy.",
@@ -3610,7 +3631,9 @@
     "from": [
       "az000247"
     ],
-    "to": [],
+    "to": [
+      "az000232"
+    ],
     "category": "RAG; Optimization",
     "definition": "A component that optimizes context window composition for LLM inference.",
     "long_description": "The RAG Context Window Manager selects, compresses, and arranges retrieved content to maximize relevance within model token limits. It supports chunk ranking, summarization, and fusion.",
@@ -3762,10 +3785,11 @@
     "label": "Model Fact Sheet",
     "from": [],
     "to": [
-      "az000255"
+      "az000255",
+      "az000021"
     ],
     "category": "Security; Governance",
-    "definition": "A documentation artifact describing a model’s purpose, limitations, and risks.",
+    "definition": "A documentation artifact describing a model\u2019s purpose, limitations, and risks.",
     "long_description": "Model Fact Sheets include intended use cases, known limitations, training data summaries, safety considerations, and evaluation metrics. They support transparency and governance.",
     "docs_links": [
       {
@@ -3787,7 +3811,9 @@
     "from": [
       "az000254"
     ],
-    "to": [],
+    "to": [
+      "az000211"
+    ],
     "category": "Security; Governance",
     "definition": "A safety-focused documentation artifact describing model risks and mitigations.",
     "long_description": "Model Safety Cards document safety evaluations, risk categories, mitigation strategies, and known failure modes. They are required for regulated AI deployments.",
@@ -3821,7 +3847,7 @@
       "az000002"
     ],
     "category": "Platform; Microsoft Foundry",
-    "definition": "A unified Azure PaaS offering for enterprise AI operations — model deployment, agent building, evaluation, and governance under a single resource provider.",
+    "definition": "A unified Azure PaaS offering for enterprise AI operations \u2014 model deployment, agent building, evaluation, and governance under a single resource provider.",
     "long_description": "Microsoft Foundry (rebranded from Azure AI Foundry at Microsoft Ignite November 2025) is the top-level platform that unifies agents, models, and tools under one Azure resource provider namespace (microsoft.foundry). It provides production-grade infrastructure with a portal, unified RBAC, networking, policy, tracing, monitoring, and evaluations. It replaces the older Hub + Azure OpenAI + Azure AI Services model with a single Foundry resource containing projects. The Foundry API offers a consistent contract for agentic applications across model providers, complemented by SDKs (azure-ai-projects 2.x) and a VS Code extension.",
     "docs_links": [
       {
@@ -3922,7 +3948,7 @@
     ],
     "category": "Platform; Microsoft Foundry",
     "definition": "A development boundary inside a Foundry Resource where teams build, evaluate, and iterate on AI use cases, isolated from other projects.",
-    "long_description": "A Foundry Project is a logical container for AI development work — files, agents, evaluations, model deployments, and connections — scoped within a Foundry Resource. Multiple projects share the resource's model deployments and connections without requiring repeated IT setup. Projects are the unit of access management for developers. They replace the older hub-based project concept and are accessible via the new Foundry portal, the azure-ai-projects 2.x SDK, and the Foundry API endpoint (https://<resource>.ai.azure.com/api/projects/<project>).",
+    "long_description": "A Foundry Project is a logical container for AI development work \u2014 files, agents, evaluations, model deployments, and connections \u2014 scoped within a Foundry Resource. Multiple projects share the resource's model deployments and connections without requiring repeated IT setup. Projects are the unit of access management for developers. They replace the older hub-based project concept and are accessible via the new Foundry portal, the azure-ai-projects 2.x SDK, and the Foundry API endpoint (https://<resource>.ai.azure.com/api/projects/<project>).",
     "docs_links": [
       {
         "title": "Projects in Microsoft Foundry",
@@ -3990,7 +4016,7 @@
       "az000256"
     ],
     "category": "Platform; Microsoft Foundry; Legacy",
-    "definition": "The older hub-based resource type (built on Azure ML) that provides open-source model hosting, fine-tuning, and managed compute — accessible via the Foundry classic portal.",
+    "definition": "The older hub-based resource type (built on Azure ML) that provides open-source model hosting, fine-tuning, and managed compute \u2014 accessible via the Foundry classic portal.",
     "long_description": "Foundry AI Hub (microsoft.machinelearningservices/workspaces kind=Hub) is the predecessor architecture to the Foundry Resource. It bundles an Azure ML workspace with AI model capabilities, supports managed compute for Hugging Face models, and requires a linked Foundry Resource. New investments are focused on the Foundry Resource type. Prompt Flow and Agents v1 (classic) are available here but are deprecated (retirement 2027). Hub-based projects can connect to a Foundry Resource to use its model deployments.",
     "docs_links": [
       {
@@ -4097,7 +4123,7 @@
     ],
     "category": "Platform; Microsoft Foundry; Knowledge Management",
     "definition": "A managed knowledge layer that turns enterprise data into reusable, permission-aware knowledge bases for AI agents.",
-    "long_description": "Foundry IQ enables creation of multi-source knowledge bases that provide agents with permission-aware responses based on organizational data. A knowledge base consists of knowledge sources (Azure Blob Storage, SharePoint, OneLake, public web) and retrieval parameters. Multiple agents can share the same knowledge base. Foundry IQ uses agentic retrieval — LLM-driven query decomposition, parallel subquery execution, semantic reranking, and citation-backed responses. It automates chunking, vector embedding generation, metadata extraction, and incremental indexer scheduling. Azure AI Search provides the underlying indexing and retrieval infrastructure.",
+    "long_description": "Foundry IQ enables creation of multi-source knowledge bases that provide agents with permission-aware responses based on organizational data. A knowledge base consists of knowledge sources (Azure Blob Storage, SharePoint, OneLake, public web) and retrieval parameters. Multiple agents can share the same knowledge base. Foundry IQ uses agentic retrieval \u2014 LLM-driven query decomposition, parallel subquery execution, semantic reranking, and citation-backed responses. It automates chunking, vector embedding generation, metadata extraction, and incremental indexer scheduling. Azure AI Search provides the underlying indexing and retrieval infrastructure.",
     "docs_links": [
       {
         "title": "What is Foundry IQ?",
@@ -4127,7 +4153,7 @@
       "az000260"
     ],
     "category": "Platform; Microsoft Foundry; Knowledge Management",
-    "definition": "A top-level resource orchestrating agentic retrieval — defines knowledge sources to query and retrieval behavior (reasoning effort: minimal, low, medium).",
+    "definition": "A top-level resource orchestrating agentic retrieval \u2014 defines knowledge sources to query and retrieval behavior (reasoning effort: minimal, low, medium).",
     "long_description": "A Foundry IQ Knowledge Base is the primary configuration unit for Foundry IQ. It references one or more knowledge sources and sets retrieval reasoning effort. Multiple agents in Foundry Agent Service or custom applications (via Azure AI Search APIs) can share the same knowledge base. It integrates with Azure Blob Storage, SharePoint, OneLake, and public web data.",
     "docs_links": [
       {
@@ -4276,7 +4302,7 @@
     ],
     "category": "AI; Azure OpenAI",
     "definition": "A deployed model instance (GPT, embeddings, vision) within an Azure OpenAI resource.",
-    "long_description": "Deployments represent specific model versions (e.g., GPT‑4o, GPT‑4 Turbo, text-embedding-3-large) configured with capacity, rate limits, and safety settings. Azure AI Foundry agents and prompt flows call deployments through connections.",
+    "long_description": "Deployments represent specific model versions (e.g., GPT\u20114o, GPT\u20114 Turbo, text-embedding-3-large) configured with capacity, rate limits, and safety settings. Azure AI Foundry agents and prompt flows call deployments through connections.",
     "docs_links": [
       {
         "title": "Deploy models in Azure OpenAI",
@@ -4314,7 +4340,7 @@
     ],
     "category": "AI; Agents",
     "definition": "A reasoning entity in Azure AI Foundry that uses LLMs, tools, memory, and workflows.",
-    "long_description": "Agents encapsulate instructions, memory, tools, and model calls. They can collaborate in multi-agent graphs, call Azure OpenAI deployments, query vector stores, and orchestrate workflows. AI‑103 focuses heavily on designing, chaining, and evaluating agents.",
+    "long_description": "Agents encapsulate instructions, memory, tools, and model calls. They can collaborate in multi-agent graphs, call Azure OpenAI deployments, query vector stores, and orchestrate workflows. AI\u2011103 focuses heavily on designing, chaining, and evaluating agents.",
     "docs_links": [
       {
         "title": "Build agents in Azure AI Foundry",
@@ -4374,7 +4400,7 @@
     ],
     "category": "AI; Agents",
     "definition": "A persistent memory store used by agents to retain context across interactions.",
-    "long_description": "Agent memory stores conversation history, facts, or embeddings. It can be backed by vector stores such as Azure AI Search or Cosmos DB. AI‑103 includes configuring memory for multi-turn reasoning.",
+    "long_description": "Agent memory stores conversation history, facts, or embeddings. It can be backed by vector stores such as Azure AI Search or Cosmos DB. AI\u2011103 includes configuring memory for multi-turn reasoning.",
     "docs_links": [
       {
         "title": "Agent memory in Azure AI Foundry",
@@ -4398,7 +4424,7 @@
     ],
     "category": "AI; Safety",
     "definition": "Safety filters and content moderation settings applied to Azure OpenAI deployments.",
-    "long_description": "Safety configurations define allowed content categories, thresholds, and moderation behavior. AI‑103 includes configuring safety settings for agents and prompt flows to ensure responsible AI behavior.",
+    "long_description": "Safety configurations define allowed content categories, thresholds, and moderation behavior. AI\u2011103 includes configuring safety settings for agents and prompt flows to ensure responsible AI behavior.",
     "docs_links": [
       {
         "title": "Azure OpenAI safety system",
@@ -4424,7 +4450,7 @@
     ],
     "category": "AI; Prompt Engineering",
     "definition": "A structured prompt used by agents or flows to interact with LLM deployments.",
-    "long_description": "Prompt templates define system messages, user messages, variables, and formatting. AI‑103 includes designing reusable prompt templates for agents, flows, and RAG pipelines.",
+    "long_description": "Prompt templates define system messages, user messages, variables, and formatting. AI\u2011103 includes designing reusable prompt templates for agents, flows, and RAG pipelines.",
     "docs_links": [
       {
         "title": "Prompt engineering in Azure AI Foundry",
@@ -4454,11 +4480,12 @@
       "az000020",
       "az000032",
       "az000036",
-      "az000258"
+      "az000258",
+      "az000203"
     ],
     "category": "AI; Prompt Flow",
     "definition": "A workflow of LLM calls, tools, and logic nodes used to build AI applications.",
-    "long_description": "Prompt Flow is a low-code/no-code orchestration system for chaining prompts, tools, evaluations, and data sources. AI‑103 uses Prompt Flow to build RAG pipelines, multi-step reasoning, and agent workflows.",
+    "long_description": "Prompt Flow is a low-code/no-code orchestration system for chaining prompts, tools, evaluations, and data sources. AI\u2011103 uses Prompt Flow to build RAG pipelines, multi-step reasoning, and agent workflows.",
     "docs_links": [
       {
         "title": "Prompt Flow overview",
@@ -4485,7 +4512,7 @@
     ],
     "category": "AI; Prompt Flow",
     "definition": "A single step in a Prompt Flow, such as an LLM call, tool invocation, or Python step.",
-    "long_description": "Flow nodes represent atomic operations in a Prompt Flow. They can call Azure OpenAI deployments, execute Python code, run evaluations, or query vector stores. AI‑103 includes designing and debugging flow nodes.",
+    "long_description": "Flow nodes represent atomic operations in a Prompt Flow. They can call Azure OpenAI deployments, execute Python code, run evaluations, or query vector stores. AI\u2011103 includes designing and debugging flow nodes.",
     "docs_links": [
       {
         "title": "Flow nodes in Prompt Flow",
@@ -4513,7 +4540,7 @@
     ],
     "category": "AI; Prompt Flow",
     "definition": "An execution instance of a Prompt Flow with recorded inputs, outputs, and metrics.",
-    "long_description": "Flow runs capture execution traces, latency, token usage, and intermediate results. AI‑103 includes evaluating flow runs to optimize prompts, tools, and model selection.",
+    "long_description": "Flow runs capture execution traces, latency, token usage, and intermediate results. AI\u2011103 includes evaluating flow runs to optimize prompts, tools, and model selection.",
     "docs_links": [
       {
         "title": "Run Prompt Flows",
@@ -4540,11 +4567,12 @@
       "az000008",
       "az000037",
       "az000039",
-      "az000259"
+      "az000259",
+      "az000204"
     ],
     "category": "AI; Evaluation",
     "definition": "A run that evaluates LLM outputs using metrics, test datasets, or human feedback.",
-    "long_description": "Evaluation runs measure correctness, relevance, groundedness, safety, and hallucination rates. AI‑103 includes configuring evaluation datasets, metrics, and automated scoring pipelines.",
+    "long_description": "Evaluation runs measure correctness, relevance, groundedness, safety, and hallucination rates. AI\u2011103 includes configuring evaluation datasets, metrics, and automated scoring pipelines.",
     "docs_links": [
       {
         "title": "Evaluate LLM applications",
@@ -4584,8 +4612,8 @@
       "az000260"
     ],
     "category": "Search; Vector Search",
-    "definition": "A cloud search service providing full‑text search, semantic search, and vector search capabilities.",
-    "long_description": "Azure AI Search (formerly Cognitive Search) provides indexing, semantic ranking, hybrid search, and vector search. AI‑103 uses it for Retrieval‑Augmented Generation (RAG), agent memory, and grounding LLM responses. It supports embeddings from Azure OpenAI and integrates with AI Foundry through vector store connections.",
+    "definition": "A cloud search service providing full\u2011text search, semantic search, and vector search capabilities.",
+    "long_description": "Azure AI Search (formerly Cognitive Search) provides indexing, semantic ranking, hybrid search, and vector search. AI\u2011103 uses it for Retrieval\u2011Augmented Generation (RAG), agent memory, and grounding LLM responses. It supports embeddings from Azure OpenAI and integrates with AI Foundry through vector store connections.",
     "docs_links": [
       {
         "title": "What is Azure AI Search?",
@@ -4614,7 +4642,7 @@
     ],
     "category": "Search; Index",
     "definition": "A schema-defined index storing searchable documents, vectors, and metadata.",
-    "long_description": "Search indexes store structured fields, text content, and vector embeddings. AI‑103 uses indexes to support hybrid search (keyword + vector), semantic ranking, and grounding for LLM applications.",
+    "long_description": "Search indexes store structured fields, text content, and vector embeddings. AI\u2011103 uses indexes to support hybrid search (keyword + vector), semantic ranking, and grounding for LLM applications.",
     "docs_links": [
       {
         "title": "Indexes in Azure AI Search",
@@ -4639,7 +4667,7 @@
     ],
     "category": "Search; Index",
     "definition": "A JSON schema defining fields, analyzers, vector dimensions, and scoring profiles.",
-    "long_description": "Index schemas define the structure of search indexes, including field types, vector embedding dimensions, analyzers, and semantic configurations. AI‑103 includes designing schemas for RAG pipelines.",
+    "long_description": "Index schemas define the structure of search indexes, including field types, vector embedding dimensions, analyzers, and semantic configurations. AI\u2011103 includes designing schemas for RAG pipelines.",
     "docs_links": [
       {
         "title": "Index schema reference",
@@ -4668,7 +4696,7 @@
     ],
     "category": "Search; Vector Search",
     "definition": "A vector-enabled index storing embeddings for similarity search.",
-    "long_description": "Vector indexes store high-dimensional embeddings generated by Azure OpenAI or other models. AI‑103 uses vector indexes for semantic retrieval, agent memory, and grounding LLM responses.",
+    "long_description": "Vector indexes store high-dimensional embeddings generated by Azure OpenAI or other models. AI\u2011103 uses vector indexes for semantic retrieval, agent memory, and grounding LLM responses.",
     "docs_links": [
       {
         "title": "Vector search in Azure AI Search",
@@ -4694,7 +4722,7 @@
     ],
     "category": "Search; Enrichment",
     "definition": "A set of cognitive skills applied during indexing to enrich documents.",
-    "long_description": "Skillsets apply transformations such as OCR, entity extraction, key phrase extraction, and embedding generation. AI‑103 uses skillsets to preprocess documents for RAG pipelines.",
+    "long_description": "Skillsets apply transformations such as OCR, entity extraction, key phrase extraction, and embedding generation. AI\u2011103 uses skillsets to preprocess documents for RAG pipelines.",
     "docs_links": [
       {
         "title": "Skillsets in Azure AI Search",
@@ -4727,7 +4755,7 @@
     ],
     "category": "Search; Indexing",
     "definition": "A component that ingests data from external sources into a search index.",
-    "long_description": "Indexers pull data from Blob Storage, ADLS, SQL, Cosmos DB, or SharePoint. They apply skillsets, generate embeddings, and populate search indexes. AI‑103 uses indexers to automate ingestion for RAG.",
+    "long_description": "Indexers pull data from Blob Storage, ADLS, SQL, Cosmos DB, or SharePoint. They apply skillsets, generate embeddings, and populate search indexes. AI\u2011103 uses indexers to automate ingestion for RAG.",
     "docs_links": [
       {
         "title": "Indexers in Azure AI Search",
@@ -4754,7 +4782,7 @@
     ],
     "category": "Search; Data Source",
     "definition": "A connection to external data used by indexers to populate search indexes.",
-    "long_description": "Data sources define the origin of documents for indexing, such as Blob Storage containers, ADLS Gen2 file systems, SQL tables, or Cosmos DB collections. AI‑103 uses data sources to feed RAG pipelines.",
+    "long_description": "Data sources define the origin of documents for indexing, such as Blob Storage containers, ADLS Gen2 file systems, SQL tables, or Cosmos DB collections. AI\u2011103 uses data sources to feed RAG pipelines.",
     "docs_links": [
       {
         "title": "Data sources for Azure AI Search",
@@ -4778,7 +4806,7 @@
     ],
     "category": "Search; Linguistic",
     "definition": "A mapping of equivalent terms used to improve search recall.",
-    "long_description": "Synonym maps expand queries with equivalent terms to improve recall. They are used in semantic search and hybrid search scenarios. AI‑103 includes configuring synonym maps for domain-specific terminology.",
+    "long_description": "Synonym maps expand queries with equivalent terms to improve recall. They are used in semantic search and hybrid search scenarios. AI\u2011103 includes configuring synonym maps for domain-specific terminology.",
     "docs_links": [
       {
         "title": "Synonym maps in Azure AI Search",
@@ -4807,7 +4835,7 @@
     ],
     "category": "AI; Vector Store",
     "definition": "A connection from Azure AI Foundry to a vector-enabled search or database backend.",
-    "long_description": "Vector store connections allow agents and prompt flows to query vector indexes for semantic retrieval. Supported backends include Azure AI Search and Cosmos DB vector stores. AI‑103 uses vector stores for grounding and memory.",
+    "long_description": "Vector store connections allow agents and prompt flows to query vector indexes for semantic retrieval. Supported backends include Azure AI Search and Cosmos DB vector stores. AI\u2011103 uses vector stores for grounding and memory.",
     "docs_links": [
       {
         "title": "Vector store connections in Azure AI Foundry",
@@ -4832,7 +4860,7 @@
     ],
     "category": "Database; Vector Search",
     "definition": "A Cosmos DB container configured for vector search using high-dimensional embeddings.",
-    "long_description": "Cosmos DB supports vector search with HNSW indexing. AI‑103 uses Cosmos DB vector stores for agent memory, semantic retrieval, and grounding when low-latency or multi-region replication is required.",
+    "long_description": "Cosmos DB supports vector search with HNSW indexing. AI\u2011103 uses Cosmos DB vector stores for agent memory, semantic retrieval, and grounding when low-latency or multi-region replication is required.",
     "docs_links": [
       {
         "title": "Vector search in Azure Cosmos DB",
@@ -4868,7 +4896,7 @@
     ],
     "category": "Storage; General Purpose",
     "definition": "A scalable storage service providing blobs, files, queues, and tables for AI/ML workloads.",
-    "long_description": "Azure Storage accounts host training data, model artifacts, logs, and intermediate pipeline outputs. AI‑300 uses Blob Storage extensively for data assets, MLflow artifacts, and batch inference inputs/outputs. AI‑103 uses it for document ingestion into Azure AI Search and RAG pipelines.",
+    "long_description": "Azure Storage accounts host training data, model artifacts, logs, and intermediate pipeline outputs. AI\u2011300 uses Blob Storage extensively for data assets, MLflow artifacts, and batch inference inputs/outputs. AI\u2011103 uses it for document ingestion into Azure AI Search and RAG pipelines.",
     "docs_links": [
       {
         "title": "Azure Storage overview",
@@ -4897,7 +4925,7 @@
     ],
     "category": "Storage; Blob",
     "definition": "A container within Blob Storage used to store unstructured data such as documents, images, and datasets.",
-    "long_description": "Blob containers store training datasets, embeddings, documents for indexing, and batch inference inputs. AI‑300 uses blob containers as data assets; AI‑103 uses them as ingestion sources for Azure AI Search and RAG pipelines.",
+    "long_description": "Blob containers store training datasets, embeddings, documents for indexing, and batch inference inputs. AI\u2011300 uses blob containers as data assets; AI\u2011103 uses them as ingestion sources for Azure AI Search and RAG pipelines.",
     "docs_links": [
       {
         "title": "Blob storage overview",
@@ -4925,7 +4953,7 @@
     ],
     "category": "Storage; Data Lake",
     "definition": "A hierarchical filesystem optimized for analytics and large-scale ML workloads.",
-    "long_description": "Azure Data Lake Storage Gen2 provides hierarchical namespaces, POSIX permissions, and optimized throughput for ML training data. AI‑300 uses ADLS Gen2 for large datasets, feature store data, and pipeline inputs.",
+    "long_description": "Azure Data Lake Storage Gen2 provides hierarchical namespaces, POSIX permissions, and optimized throughput for ML training data. AI\u2011300 uses ADLS Gen2 for large datasets, feature store data, and pipeline inputs.",
     "docs_links": [
       {
         "title": "Azure Data Lake Storage Gen2",
@@ -4949,7 +4977,7 @@
     ],
     "category": "Storage; Messaging",
     "definition": "A simple message queue service for decoupled communication.",
-    "long_description": "Queue Storage is used for lightweight asynchronous workflows. AI‑300 may use queues for triggering batch inference or pipeline steps; AI‑103 may use them for event-driven agent workflows.",
+    "long_description": "Queue Storage is used for lightweight asynchronous workflows. AI\u2011300 may use queues for triggering batch inference or pipeline steps; AI\u2011103 may use them for event-driven agent workflows.",
     "docs_links": [
       {
         "title": "Azure Queue Storage",
@@ -4973,7 +5001,7 @@
     ],
     "category": "Storage; File",
     "definition": "A managed SMB file share used for shared storage across compute nodes.",
-    "long_description": "Azure File Shares are sometimes used for shared datasets or legacy workloads. AI‑300 may use file shares for shared training data or logs across compute instances.",
+    "long_description": "Azure File Shares are sometimes used for shared datasets or legacy workloads. AI\u2011300 may use file shares for shared training data or logs across compute instances.",
     "docs_links": [
       {
         "title": "Azure Files",
@@ -5001,7 +5029,7 @@
     ],
     "category": "Machine Learning; Data",
     "definition": "A dataset stored in Blob or ADLS used for ML training jobs.",
-    "long_description": "Training datasets include CSVs, Parquet files, images, or text corpora. AI‑300 uses datasets as versioned data assets for reproducible training pipelines.",
+    "long_description": "Training datasets include CSVs, Parquet files, images, or text corpora. AI\u2011300 uses datasets as versioned data assets for reproducible training pipelines.",
     "docs_links": [
       {
         "title": "Data assets in Azure ML",
@@ -5030,7 +5058,7 @@
     ],
     "category": "Search; Data",
     "definition": "A collection of documents used for indexing and RAG pipelines.",
-    "long_description": "Document corpora include PDFs, HTML, Markdown, Office files, and text documents. AI‑103 uses document corpora as ingestion sources for Azure AI Search and vector indexing.",
+    "long_description": "Document corpora include PDFs, HTML, Markdown, Office files, and text documents. AI\u2011103 uses document corpora as ingestion sources for Azure AI Search and vector indexing.",
     "docs_links": [
       {
         "title": "Data ingestion for Azure AI Search",
@@ -5060,7 +5088,7 @@
     ],
     "category": "Database; Relational",
     "definition": "A managed relational database service used for structured data storage.",
-    "long_description": "Azure SQL stores structured data for AI applications, metadata for agents, or tabular datasets for ML. AI‑103 uses SQL as a data source for RAG pipelines; AI‑300 may use it for feature store inputs.",
+    "long_description": "Azure SQL stores structured data for AI applications, metadata for agents, or tabular datasets for ML. AI\u2011103 uses SQL as a data source for RAG pipelines; AI\u2011300 may use it for feature store inputs.",
     "docs_links": [
       {
         "title": "Azure SQL Database",
@@ -5086,7 +5114,7 @@
     ],
     "category": "Database; Relational",
     "definition": "A table within Azure SQL used as a structured data source.",
-    "long_description": "SQL tables store structured records used for indexing, analytics, or ML feature engineering. AI‑103 uses SQL tables as indexer data sources.",
+    "long_description": "SQL tables store structured records used for indexing, analytics, or ML feature engineering. AI\u2011103 uses SQL tables as indexer data sources.",
     "docs_links": [
       {
         "title": "Azure SQL tables",
@@ -5115,7 +5143,7 @@
     ],
     "category": "Database; NoSQL",
     "definition": "A container within Cosmos DB used for JSON documents or vector embeddings.",
-    "long_description": "Cosmos DB containers store JSON documents, metadata, or vector embeddings. AI‑103 uses Cosmos DB as a vector store backend for agent memory and semantic retrieval.",
+    "long_description": "Cosmos DB containers store JSON documents, metadata, or vector embeddings. AI\u2011103 uses Cosmos DB as a vector store backend for agent memory and semantic retrieval.",
     "docs_links": [
       {
         "title": "Azure Cosmos DB containers",
@@ -5143,7 +5171,7 @@
     ],
     "category": "Messaging; Event Streaming",
     "definition": "A high-throughput event ingestion service for streaming data.",
-    "long_description": "Event Hubs ingest telemetry, logs, or real-time data for ML inference or monitoring. AI‑300 may use Event Hubs for real-time model scoring pipelines.",
+    "long_description": "Event Hubs ingest telemetry, logs, or real-time data for ML inference or monitoring. AI\u2011300 may use Event Hubs for real-time model scoring pipelines.",
     "docs_links": [
       {
         "title": "Azure Event Hubs",
@@ -5169,7 +5197,7 @@
     ],
     "category": "Messaging; Event Streaming",
     "definition": "A stream of events consumed by ML jobs or real-time inference pipelines.",
-    "long_description": "Event streams provide real-time data for online inference or monitoring. AI‑300 may integrate event streams into real-time scoring endpoints or drift detection workflows.",
+    "long_description": "Event streams provide real-time data for online inference or monitoring. AI\u2011300 may integrate event streams into real-time scoring endpoints or drift detection workflows.",
     "docs_links": [
       {
         "title": "Event streaming concepts",
@@ -5200,7 +5228,7 @@
     ],
     "category": "Integration; Data Movement",
     "definition": "A data integration pipeline used to move, transform, and orchestrate data.",
-    "long_description": "Data Factory pipelines ingest, transform, and prepare data for ML training or indexing. AI‑300 uses Data Factory for ETL workflows feeding ML pipelines; AI‑103 uses it to prepare documents for RAG ingestion.",
+    "long_description": "Data Factory pipelines ingest, transform, and prepare data for ML training or indexing. AI\u2011300 uses Data Factory for ETL workflows feeding ML pipelines; AI\u2011103 uses it to prepare documents for RAG ingestion.",
     "docs_links": [
       {
         "title": "Azure Data Factory",
@@ -5235,7 +5263,7 @@
     ],
     "category": "Compute; Containers",
     "definition": "A managed Kubernetes service used to host scalable ML inference workloads.",
-    "long_description": "AKS provides GPU and CPU node pools for high‑performance real‑time inference. AI‑300 uses AKS for custom model deployments, high‑throughput endpoints, and advanced networking scenarios. It integrates with Azure ML online endpoints for production‑grade serving.",
+    "long_description": "AKS provides GPU and CPU node pools for high\u2011performance real\u2011time inference. AI\u2011300 uses AKS for custom model deployments, high\u2011throughput endpoints, and advanced networking scenarios. It integrates with Azure ML online endpoints for production\u2011grade serving.",
     "docs_links": [
       {
         "title": "Azure Kubernetes Service",
@@ -5261,7 +5289,7 @@
     ],
     "category": "Compute; Containers",
     "definition": "A group of virtual machines in an AKS cluster used to run container workloads.",
-    "long_description": "Node pools define VM sizes, GPU availability, autoscaling, and OS configuration. AI‑300 uses GPU node pools for deep learning inference and CPU pools for lightweight scoring services.",
+    "long_description": "Node pools define VM sizes, GPU availability, autoscaling, and OS configuration. AI\u2011300 uses GPU node pools for deep learning inference and CPU pools for lightweight scoring services.",
     "docs_links": [
       {
         "title": "Node pools in AKS",
@@ -5288,7 +5316,7 @@
     ],
     "category": "Compute; Containers",
     "definition": "A Kubernetes deployment hosting ML inference containers.",
-    "long_description": "AKS deployments run containerized inference servers, often built from Azure ML environments or custom Docker images. AI‑300 uses deployments for scalable, resilient model serving.",
+    "long_description": "AKS deployments run containerized inference servers, often built from Azure ML environments or custom Docker images. AI\u2011300 uses deployments for scalable, resilient model serving.",
     "docs_links": [
       {
         "title": "Kubernetes deployments",
@@ -5313,7 +5341,7 @@
     ],
     "category": "Compute; Containers",
     "definition": "A Kubernetes service exposing deployed ML inference pods.",
-    "long_description": "AKS services expose deployments internally or externally. AI‑300 uses load‑balanced services for production inference and integrates them with Azure ML endpoints or API Management.",
+    "long_description": "AKS services expose deployments internally or externally. AI\u2011300 uses load\u2011balanced services for production inference and integrates them with Azure ML endpoints or API Management.",
     "docs_links": [
       {
         "title": "Kubernetes services",
@@ -5344,7 +5372,7 @@
     ],
     "category": "Compute; Serverless Containers",
     "definition": "A serverless container platform for hosting microservices and ML inference workloads.",
-    "long_description": "Container Apps provide autoscaling, Dapr integration, and event‑driven execution. AI‑300 uses Container Apps for lightweight inference endpoints; AI‑103 uses them to host agent tools or custom APIs.",
+    "long_description": "Container Apps provide autoscaling, Dapr integration, and event\u2011driven execution. AI\u2011300 uses Container Apps for lightweight inference endpoints; AI\u2011103 uses them to host agent tools or custom APIs.",
     "docs_links": [
       {
         "title": "Azure Container Apps",
@@ -5370,7 +5398,7 @@
     ],
     "category": "Compute; Serverless Containers",
     "definition": "A secure environment hosting one or more container apps.",
-    "long_description": "Container Apps Environments define networking, logging, and scaling boundaries. AI‑300 uses them for grouping inference microservices; AI‑103 uses them for agent tool hosting.",
+    "long_description": "Container Apps Environments define networking, logging, and scaling boundaries. AI\u2011300 uses them for grouping inference microservices; AI\u2011103 uses them for agent tool hosting.",
     "docs_links": [
       {
         "title": "Container Apps environments",
@@ -5397,7 +5425,7 @@
     ],
     "category": "Compute; Serverless Containers",
     "definition": "A serverless containerized application running inside a Container Apps Environment.",
-    "long_description": "Container Apps run inference servers, agent tools, or microservices. They support autoscaling based on HTTP traffic, events, or custom metrics. AI‑103 uses them for tool hosting; AI‑300 uses them for inference.",
+    "long_description": "Container Apps run inference servers, agent tools, or microservices. They support autoscaling based on HTTP traffic, events, or custom metrics. AI\u2011103 uses them for tool hosting; AI\u2011300 uses them for inference.",
     "docs_links": [
       {
         "title": "Deploy apps to Container Apps",
@@ -5421,7 +5449,7 @@
     ],
     "category": "Compute; Serverless Containers",
     "definition": "A versioned snapshot of a Container App configuration.",
-    "long_description": "Revisions allow blue‑green deployments, traffic splitting, and rollback. AI‑300 uses revisions for safe rollout of inference services.",
+    "long_description": "Revisions allow blue\u2011green deployments, traffic splitting, and rollback. AI\u2011300 uses revisions for safe rollout of inference services.",
     "docs_links": [
       {
         "title": "Revisions in Container Apps",
@@ -5451,7 +5479,7 @@
     ],
     "category": "Compute; Serverless",
     "definition": "A serverless compute service for running event-driven code.",
-    "long_description": "Azure Functions host agent tools, preprocessing logic, or lightweight inference. AI‑103 uses Functions as callable tools for agents; AI‑300 uses them for pipeline triggers or batch orchestration.",
+    "long_description": "Azure Functions host agent tools, preprocessing logic, or lightweight inference. AI\u2011103 uses Functions as callable tools for agents; AI\u2011300 uses them for pipeline triggers or batch orchestration.",
     "docs_links": [
       {
         "title": "Azure Functions overview",
@@ -5477,7 +5505,7 @@
     ],
     "category": "Compute; Serverless",
     "definition": "A container for hosting one or more Azure Functions.",
-    "long_description": "Function Apps define runtime settings, identity, networking, and scaling for serverless functions. AI‑103 uses Function Apps to host agent tools that interact with external systems.",
+    "long_description": "Function Apps define runtime settings, identity, networking, and scaling for serverless functions. AI\u2011103 uses Function Apps to host agent tools that interact with external systems.",
     "docs_links": [
       {
         "title": "Function Apps",
@@ -5505,7 +5533,7 @@
     ],
     "category": "Compute; Web Hosting",
     "definition": "A managed platform for hosting web apps and APIs.",
-    "long_description": "App Service hosts REST APIs, dashboards, and web frontends for AI applications. AI‑103 uses App Service to host agent‑powered apps; AI‑300 uses it to expose ML inference APIs.",
+    "long_description": "App Service hosts REST APIs, dashboards, and web frontends for AI applications. AI\u2011103 uses App Service to host agent\u2011powered apps; AI\u2011300 uses it to expose ML inference APIs.",
     "docs_links": [
       {
         "title": "Azure App Service overview",
@@ -5529,7 +5557,7 @@
     ],
     "category": "Compute; Web Hosting",
     "definition": "A staging environment for App Service applications.",
-    "long_description": "Deployment slots allow blue‑green deployments, A/B testing, and safe rollouts. AI‑103 uses slots for agent‑powered apps; AI‑300 uses them for inference API rollouts.",
+    "long_description": "Deployment slots allow blue\u2011green deployments, A/B testing, and safe rollouts. AI\u2011103 uses slots for agent\u2011powered apps; AI\u2011300 uses them for inference API rollouts.",
     "docs_links": [
       {
         "title": "Deployment slots",
@@ -5559,7 +5587,7 @@
     ],
     "category": "Compute; Virtual Machines",
     "definition": "A general-purpose VM used for custom ML training or hosting inference servers.",
-    "long_description": "VMs provide full control over OS, drivers, and hardware. AI‑300 uses VMs for custom training environments or GPU workloads not supported by managed compute.",
+    "long_description": "VMs provide full control over OS, drivers, and hardware. AI\u2011300 uses VMs for custom training environments or GPU workloads not supported by managed compute.",
     "docs_links": [
       {
         "title": "Azure Virtual Machines",
@@ -5592,7 +5620,7 @@
     ],
     "category": "Networking; Security",
     "definition": "A private network boundary for securing Azure resources.",
-    "long_description": "VNets isolate compute, storage, and AI services. AI‑300 uses VNets for secure ML training and inference; AI‑103 uses VNets for private agent and API hosting.",
+    "long_description": "VNets isolate compute, storage, and AI services. AI\u2011300 uses VNets for secure ML training and inference; AI\u2011103 uses VNets for private agent and API hosting.",
     "docs_links": [
       {
         "title": "Azure Virtual Network",
@@ -5618,7 +5646,7 @@
     ],
     "category": "Networking; Security",
     "definition": "A segmented portion of a virtual network used to isolate workloads.",
-    "long_description": "Subnets host compute resources such as AKS nodes, Container Apps, or VMs. AI‑300 uses subnets to isolate training and inference workloads.",
+    "long_description": "Subnets host compute resources such as AKS nodes, Container Apps, or VMs. AI\u2011300 uses subnets to isolate training and inference workloads.",
     "docs_links": [
       {
         "title": "Subnets",
@@ -5646,7 +5674,7 @@
     ],
     "category": "Networking; Security",
     "definition": "A private network interface to access Azure services securely.",
-    "long_description": "Private endpoints allow secure access to Azure ML, Azure OpenAI, Storage, and AI Search without public exposure. AI‑300 and AI‑103 both use private endpoints for compliance‑sensitive workloads.",
+    "long_description": "Private endpoints allow secure access to Azure ML, Azure OpenAI, Storage, and AI Search without public exposure. AI\u2011300 and AI\u2011103 both use private endpoints for compliance\u2011sensitive workloads.",
     "docs_links": [
       {
         "title": "Private Endpoints",
@@ -5699,7 +5727,8 @@
     ],
     "from": [
       "az000032",
-      "az000258"
+      "az000258",
+      "az000247"
     ],
     "category": "AI; Retrieval-Augmented Generation",
     "definition": "A pipeline that enriches model responses by retrieving relevant external knowledge.",
@@ -5815,7 +5844,7 @@
     "long_description": "Chunking strategies determine how text is divided before embedding. Common approaches include fixed-size chunks, semantic chunking, and recursive text splitting. Proper chunking improves retrieval accuracy and reduces hallucinations.",
     "docs_links": [
       {
-        "title": "Developing a RAG solution – Chunking phase",
+        "title": "Developing a RAG solution \u2013 Chunking phase",
         "url": "https://learn.microsoft.com/azure/architecture/ai-ml/rag-chunking-strategy"
       }
     ],
@@ -7139,7 +7168,8 @@
     "from": [
       "az000171",
       "az000249",
-      "az000258"
+      "az000258",
+      "az000229"
     ],
     "category": "AI; Agents",
     "definition": "The runtime system that executes agent workflows, tool calls, and planning steps.",
@@ -7197,7 +7227,7 @@
     ],
     "category": "AI; Fine-Tuning",
     "definition": "A lightweight adapter that enables efficient fine-tuning of large models.",
-    "long_description": "LoRA (Low-Rank Adaptation) injects trainable matrices into a model’s layers, enabling fine-tuning with minimal compute and storage. Azure AI Foundry supports LoRA-based fine-tuning for cost-efficient customization of LLMs and multimodal models.",
+    "long_description": "LoRA (Low-Rank Adaptation) injects trainable matrices into a model\u2019s layers, enabling fine-tuning with minimal compute and storage. Azure AI Foundry supports LoRA-based fine-tuning for cost-efficient customization of LLMs and multimodal models.",
     "docs_links": [
       {
         "title": "LoRA adapters for fine-tuning in Azure Machine Learning",

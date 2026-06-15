@@ -7,10 +7,10 @@ from pathlib import Path
 
 import networkx as nx
 
-from tools.search_tools import web_search, ms_docs_search
-from tools.graph import load_graph, compute_louvain_communities, attach_communities_to_nodes, compute_graph_diagnostics
-from tools.utils import save_investigation, log, get_month_year
-from tools.llm_graph import investigate_component, investigate_isolated_node, analyze_node
+from src.tools.search_tools import web_search, ms_docs_search
+from src.tools.graph import load_graph, compute_louvain_communities, attach_communities_to_nodes, compute_graph_diagnostics
+from src.tools.utils import save_investigation, log, get_month_year
+from src.tools.llm_graph import investigate_component, investigate_isolated_node, analyze_node
 
 from foundry_local_sdk import Configuration, FoundryLocalManager
 from langchain_openai import ChatOpenAI
@@ -22,7 +22,9 @@ from langchain_core.output_parsers import StrOutputParser
 # -----------------------------
 GRAPH_PATH = Path("azure_ai_graph.json")
 APP_NAME = "cdr-foundry-local"
-MODEL_ID = "phi-4-mini" #"deepseek-r1-1.5b" #"qwen2.5-0.5b"  # replace with 7B–14B model when available
+## phi model runs on NPU, do not follow all instructions
+## qwen3.5 on GPU: faster and compliance output
+MODEL_ID = "qwen3.5-2b-text" ###"phi-4-mini" #"deepseek-r1-1.5b" #"qwen2.5-0.5b"  # replace with 7B–14B model when available
 
 # -----------------------------
 # Foundry Local + LangChain setup
@@ -79,7 +81,7 @@ def init_foundry_and_llm():
 # Prompt / chain
 # -----------------------------
 NODE_ANALYSIS_SYSTEM = """
-You are an expert on Azure AI, Azure ML, Azure AI Services and Microsoft Foundry (aka Azure AI Foundry) architecture.
+You are an expert on Azure AI, Azure ML, Azure AI Services and Microsoft Foundry (aka Microsft Foundry) architecture.
 
 You are given:
 - A single node from a knowledge graph
@@ -91,31 +93,34 @@ Your tasks:
 2. Suggest fixes to the node (definition, category, edges) if needed.
 3. Suggest any additional relevant documentation URLs that should be attached to this node.
 
-Respond in JSON with the following fields:
+Return ONLY *VALID* JSON with the following fields:
 - "architecture_feedback": string
 - "suggested_edge_changes": {{ "add_from": [], "add_to": [], "remove_from": [], "remove_to": [] }}
 - "suggested_docs": [ {{ "title": "...", "url": "..." }} ]
+Do *NOT* include code fences or markdown.
+You MUST include all required fields, even if empty.
+Do NOT omit any field.
+Do NOT rename any field.
+Do NOT add extra fields.
+If you are unsure, output empty arrays for missing fields.
 """
 
 NODE_ANALYSIS_USER_TEMPLATE = """
 Node:
-```json
 {node_json}
-```
+
 Neighbors:
-```json
 {neighbors_json}
-```
+
 Existing Documentation Links:
-```json
 {docs_json}
-```
+
 Tasks:
-1. Evaluate whether this node and its incoming/outgoing edges correctly represent Azure AI, Azure Machine Learning, or Azure AI Foundry architecture.
+1. Evaluate whether this node and its incoming/outgoing edges correctly represent Azure AI, Azure Machine Learning, or Microsft Foundry architecture.
 2. Suggest missing relationships.
 3. Suggest incorrect relationships that should be removed.
 4. Suggest additional Microsoft Learn documentation relevant to this node.
-Return ONLY valid JSON matching the schema defined in the system prompt.
+Return ONLY *VALID* JSON matching the schema defined in the system prompt. 
 """
 prompt = ChatPromptTemplate.from_messages(
     [
@@ -141,11 +146,12 @@ def enrich_with_tools(node, llm_feedback: dict):
     category = node.get("category", "")
 
     #Web search for missing connections
-    ws_query = f"Azure AI Foundry {label} {category} architecture dependencies"
+    ws_query = f"Microsft Foundry {label} {category} architecture dependencies"
     ws_result = web_search(ws_query)
     
     #Microsoft Docs search for more precise docs
-    docs_query = f"site:learn.microsoft.com Azure AI Foundry {label}"
+    # docs_query = f"site:learn.microsoft.com Microsft Foundry {label}"
+    docs_query = f"Microsft Foundry {label}"
     docs_result = ms_docs_search(docs_query)
 
     return {
@@ -221,8 +227,6 @@ def main():
 
     save_investigation("disconnected_communities_analysis.json", community_results)
 
-    cleanup(model, manager)
-
     # Analyze each node
     updated_nodes = []
     for node in nodes:
@@ -239,7 +243,14 @@ def main():
             feedback = {"raw": raw_result}
 
         # Optionally call tools to enrich docs/edges
-        tool_enrichment = enrich_with_tools(node, feedback)
+        tool_enrichment = ""
+        docs_num = len(node.get('docs_links', []))
+        log(
+            "[GRAPH]", 
+            f"Existing docs = {docs_num}"
+        )
+        if docs_num < 5:
+            tool_enrichment = enrich_with_tools(node, feedback)
         
         #Attach feedback + tool enrichment to node for now
         node["_analysis"] = feedback

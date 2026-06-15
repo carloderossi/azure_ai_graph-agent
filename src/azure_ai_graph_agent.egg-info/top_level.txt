@@ -1,2 +1,3 @@
-azure-ai-graph-agent
+azure_ai_graph_agent
 test
+tools
