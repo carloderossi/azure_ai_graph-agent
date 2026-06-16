@@ -1,9 +1,11 @@
 import requests
 import urllib.parse
+from langchain.tools import tool
 
 # -----------------------------
 # Tools 
 # -----------------------------
+@tool
 def web_search(query: str):
     """
     Real web search using DuckDuckGo Instant Answer API.
@@ -51,6 +53,7 @@ def web_search(query: str):
             "results": []
         }
 
+@tool
 def ms_docs_search(query: str):
     """
     Searches Microsoft Learn documentation using the public search API.

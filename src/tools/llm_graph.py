@@ -1,5 +1,6 @@
 import json
 import networkx as nx
+import re
 
 from foundry_local_sdk import Configuration, FoundryLocalManager
 from langchain_openai import ChatOpenAI
@@ -7,6 +8,20 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 from src.tools.utils import log, get_month_year
+from src.tools.search_tools import ms_docs_search
+
+from langchain.agents import create_agent
+
+def clean_output(text: str) -> str:
+    # remove <think> blocks
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
+    # strip markdown fences
+    text = text.replace("```json", "").replace("```", "")
+    return text.strip()
+
+class CleanParser(StrOutputParser):
+    def parse(self, text):
+        return clean_output(text)
 
 # -----------------------------
 # Node analysis
@@ -16,7 +31,7 @@ def get_node_neighbors(G: nx.DiGraph, node_id: str):
     outgoing = list(G.successors(node_id))
     return {"incoming": incoming, "outgoing": outgoing}
 
-def analyze_node(llm_chain, node, G: nx.DiGraph):
+def analyze_node(user_content, system_prompt, llm, node, G: nx.DiGraph):
     node_json = json.dumps(node, indent=2)
     neighbors = get_node_neighbors(G, node["id"])
     neighbors_json = json.dumps(neighbors, indent=2)
@@ -25,15 +40,32 @@ def analyze_node(llm_chain, node, G: nx.DiGraph):
     #log("LLM", f"Analyzing node '{node}' \n node_json: '{node_json}' \n neighbors_json: '{neighbors_json}' \n docs_json: {docs_json}")
     log("LLM", f"Analyzing node '{node["id"]}' '{node["label"]}'")
 
-    result = llm_chain.invoke(
-        {
-            "node_json": node_json,
-            "neighbors_json": neighbors_json,
-            "docs_json": docs_json,
-            "current_month": get_month_year(),
-        }
-    )
-    print(f"res='{result}'")
+    agent = create_agent(
+        model=llm,
+        tools=[ms_docs_search],
+        system_prompt=system_prompt
+    )   
+    
+    response = agent.invoke({
+        "messages": [("user", user_content)]
+    })
+    print(f"response='{response}'")
+
+    raw_output = response["messages"][-1].content
+
+    # 7. Apply your custom parsing formatting rules to the final string
+    clean_parser = CleanParser()
+    result = clean_parser.parse(raw_output)
+
+    # result = llm_chain.invoke(
+    #     {
+    #         "node_json": node_json,
+    #         "neighbors_json": neighbors_json,
+    #         "docs_json": docs_json,
+    #         "current_month": get_month_year(),
+    #     }
+    # )
+    print(f"result='{result}'")
     return result
 
 COMMUNITY_SYSTEM = """
@@ -51,7 +83,8 @@ Return JSON only.
 """
 
 def investigate_component(
-    llm_chain,
+    user_context, system_promt,
+    llm,
     component_nodes,
     node_lookup,
     G
@@ -68,7 +101,7 @@ def investigate_component(
         node = node_lookup[node_id]
 
         analysis = analyze_node(
-            llm_chain,
+            user_context, system_promt, llm,
             node,
             G
         )

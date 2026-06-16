@@ -1,13 +1,17 @@
 from foundry_local_sdk import Configuration, FoundryLocalManager
 from langchain_openai import ChatOpenAI
+from langchain.agents import create_agent
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
 
 from src.tools.graph import load_graph
-from src.azure_ai_graph_agent.graph_agent import GRAPH_PATH, prompt, build_chain
+from src.azure_ai_graph_agent.graph_agent import GRAPH_PATH, get_system_promt, get_user_context
 from src.tools.llm_graph import analyze_node
+from src.tools.search_tools import ms_docs_search
 
 import json
+
+## PS C:\Carlo\Azure\FoundryLocal\azure_ai_graph-agent> .venv\Scripts\activate 
+# (azure_ai_graph-agent) PS C:\Carlo\Azure\FoundryLocal\azure_ai_graph-agent> python -m src.test.model_chat_test
 
 APP_NAME = "cdr-foundry-local"
 MODEL_ID = "phi-4-mini" ## "qwen3.5-2b-text"
@@ -50,16 +54,18 @@ llm = ChatOpenAI(
     model=model.id,
 )
 
-print(f"PROMPT: \n{prompt}\n")
+user_content = get_user_context()
+system_prompt = get_system_promt()
 
-llm_chain = build_chain(llm)
+#llm_chain = build_chain(llm)
 
-print(f"LLM CHAIN: \n{llm_chain}\n")
+#print(f"LLM CHAIN: \n{llm_chain}\n")
 
 nodes, G = load_graph(GRAPH_PATH)
-node = G.nodes["az000231"]
+node = G.nodes["az000001"]##["az000231"]
 
-raw_result = analyze_node(llm_chain, node, G)
+raw_result = analyze_node(user_content, system_prompt, llm, node, G)
+
 print("Model raw result:")
 print(raw_result)
 

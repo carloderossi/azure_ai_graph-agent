@@ -5,7 +5,6 @@ import sys
 
 from pathlib import Path
 
-import re
 import networkx as nx
 
 from src.tools.search_tools import web_search, ms_docs_search
@@ -25,18 +24,7 @@ GRAPH_PATH = Path("azure_ai_graph.json")
 APP_NAME = "cdr-foundry-local"
 ## phi model runs on NPU, do not follow all instructions
 ## qwen3.5 on GPU: faster and compliance output
-MODEL_ID = "qwen3.5-2b-text" ###"phi-4-mini" #"deepseek-r1-1.5b" #"qwen2.5-0.5b"  # replace with 7B–14B model when available
-
-def clean_output(text: str) -> str:
-    # remove <think> blocks
-    text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
-    # strip markdown fences
-    text = text.replace("```json", "").replace("```", "")
-    return text.strip()
-
-class CleanParser(StrOutputParser):
-    def parse(self, text):
-        return clean_output(text)
+MODEL_ID = "phi-4-mini" ##### "qwen3.5-2b-text" ###"phi-4-mini" #"deepseek-r1-1.5b" #"qwen2.5-0.5b"  # replace with 7B–14B model when available
 
 # -----------------------------
 # Foundry Local + LangChain setup
@@ -141,10 +129,18 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 # print(f"PROMPT: {prompt}")
+compiled_system_prompt = NODE_ANALYSIS_SYSTEM.format(
+    current_month=get_month_year()
+)
 
-def build_chain(llm: ChatOpenAI):
-    return prompt | llm | StrOutputParser() | CleanParser()
+def get_system_promt():
+    return compiled_system_prompt
 
+def get_user_context():
+    return NODE_ANALYSIS_USER_TEMPLATE
+
+# def build_chain(llm: ChatOpenAI):
+#     return prompt | llm | StrOutputParser() | CleanParser()
 
 # -----------------------------
 # Optional: use tools to enrich docs/edges
@@ -199,7 +195,7 @@ def main():
 
     # 3. Init Foundry Local + LangChain LLM
     manager, model, llm = init_foundry_and_llm()
-    llm_chain = build_chain(llm)
+    # llm_chain = build_chain(llm)
 
     diagnostics = compute_graph_diagnostics(G)
     log(
@@ -218,7 +214,7 @@ def main():
         node = node_lookup[node_id]
         isolated_results.append(
             investigate_isolated_node(
-                llm_chain,
+                llm,
                 node,
                 G
             )
@@ -230,7 +226,8 @@ def main():
     community_results = []
     for component in diagnostics["secondary_components"]:
         result = investigate_component(
-            llm_chain,
+            get_user_context(), get_system_promt(),
+            llm,
             component,
             node_lookup,
             G
@@ -243,7 +240,7 @@ def main():
     updated_nodes = []
     for node in nodes:
         print(f"\n=== Analyzing node {node['id']} - {node.get('label', '')} ===")
-        raw_result = analyze_node(llm_chain, node, G)
+        raw_result = analyze_node(get_user_context(), get_system_promt(), llm, node, G)
         print("Model raw result:")
         print(raw_result)
 
@@ -261,9 +258,9 @@ def main():
             "[GRAPH]", 
             f"Existing docs = {docs_num}"
         )
-        if docs_num < 5:
-            print("Calling search tools...")
-            tool_enrichment = enrich_with_tools(node, feedback)
+        # if docs_num < 5:
+        #     print("Calling search tools...")
+        #     tool_enrichment = enrich_with_tools(node, feedback)
         
         #Attach feedback + tool enrichment to node for now
         node["_analysis"] = feedback

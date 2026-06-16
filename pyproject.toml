@@ -7,14 +7,17 @@ requires-python = ">=3.11"
 
 dependencies = [
     "foundry-local-sdk-winml",
-    "openai",
+    "openai>=1.40.0",
     "pyaudio>=0.2.14",
-    "langchain>=0.3.0",
-    "langchain-openai>=0.1.0",
+    "langchain>=1.3.0",
+    "langchain-core>=1.3.0",
+    "langchain-openai>=1.3.0",
+    "langchain-community",
     "networkx>=3.2",
     "python-louvain>=0.16",
     "pydantic>=2.0",
 ]
+
 
 [tool.setuptools]
 package-dir = {"" = "src"}
