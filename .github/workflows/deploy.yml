@@ -27,7 +27,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html style.css knowledge_graph.json favicon.ico _site/
-          cp -R js assets _site/
+          cp -R js _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
