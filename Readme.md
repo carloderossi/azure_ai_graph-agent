@@ -19,37 +19,7 @@ The resulting Knowledge Graph can be explored through an interactive web visuali
 
 
 ## Architecture
-
-```text
-┌─────────────────────────┐
-│  Azure Entity Agent     │
-│  Discover Nodes         │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│ Knowledge Graph Store   │
-│ Nodes + Edges           │
-└───────┬─────────┬───────┘
-        │         │
-        │         ▼
-        │  ┌────────────────────┐
-        │  │ Documentation Agent│
-        │  │ learn.microsoft.com│
-        │  └────────────────────┘
-        │
-        ▼
-┌─────────────────────────┐
-│ Dependency Agent        │
-│ Infer Relationships     │
-└─────────────────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│ Visualization Pipeline  │
-│ HTML / JavaScript Graph │
-└─────────────────────────┘
-```
+![Architecture animation](./images/architecture.gif)
 
 ## Agents
 
