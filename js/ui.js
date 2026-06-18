@@ -962,8 +962,8 @@ export function setupShareButtons(getCurrentNodeId, getCurrentNodeLabel) {
     const label = getCurrentNodeLabel();
     const url = getCurrentPermalink();
     const text = label
-      ? `Exploring "${label}" in the ML Knowledge Graph — see how concepts connect:`
-      : "Explore 2,000+ ML & math concepts in this interactive 3D knowledge graph:";
+      ? `Exploring "${label}" in the Knowledge Graph:`
+      : "Azure ML/AI Entities interactive 3D knowledge graph:";
     window.open(
       `https://x.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,
       "_blank",
