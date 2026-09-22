@@ -38,7 +38,8 @@
       "az000196",
       "az000209",
       "az000256",
-      "az000257"
+      "az000257",
+      "az000263"
     ],
     "from": [],
     "category": "Cloud Foundation; Infrastructure",
@@ -112,7 +113,9 @@
     "_betweenness_centrality": 0.0,
     "_descendant_ratio": 1.0,
     "_prerequisite_ratio": 0.0,
-    "_reachability_ratio": 1.0
+    "_reachability_ratio": 1.0,
+    "title": "Azure Cloud Platform",
+    "url": "https://learn.microsoft.com/azure/cloud-adoption-framework/get-started/what-is-azure"
   },
   {
     "id": "az000002",
@@ -143,7 +146,11 @@
       "az000030",
       "az000063",
       "az000064",
-      "az000076"
+      "az000076",
+      "az000280",
+      "az000284",
+      "az000285",
+      "az000287"
     ],
     "category": "Identity; Security",
     "definition": "Azure's cloud identity and access management service used to secure users, apps, and workloads.",
@@ -220,7 +227,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.92,
     "_prerequisite_ratio": 0.9,
-    "_reachability_ratio": 0.98
+    "_reachability_ratio": 0.98,
+    "title": "Microsoft Entra ID",
+    "url": "https://learn.microsoft.com/entra/identity/overview/what-is-azure-active-directory"
   },
   {
     "id": "az000003",
@@ -301,7 +310,9 @@
     "_betweenness_centrality": 0.004,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.4,
-    "_reachability_ratio": 0.85
+    "_reachability_ratio": 0.85,
+    "title": "Azure Region",
+    "url": "https://learn.microsoft.com/azure/reliability/regions"
   },
   {
     "id": "az000004",
@@ -380,7 +391,9 @@
     "_betweenness_centrality": 0.006,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "App Registration",
+    "url": "https://learn.microsoft.com/entra/identity-platform/quickstart-register-app"
   },
   {
     "id": "az000005",
@@ -480,7 +493,9 @@
     "_betweenness_centrality": 0.008,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.8,
-    "_reachability_ratio": 0.75
+    "_reachability_ratio": 0.75,
+    "title": "Role Assignment",
+    "url": "https://learn.microsoft.com/azure/role-based-access-control/overview"
   },
   {
     "id": "az000006",
@@ -514,7 +529,9 @@
       "az000012",
       "az000030",
       "az000064",
-      "az000076"
+      "az000076",
+      "az000280",
+      "az000287"
     ],
     "category": "Identity; Security",
     "definition": "An automatically managed identity for Azure resources to authenticate to services without secrets.",
@@ -595,7 +612,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.8,
     "_prerequisite_ratio": 0.85,
-    "_reachability_ratio": 0.9
+    "_reachability_ratio": 0.9,
+    "title": "Managed Identity",
+    "url": "https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview"
   },
   {
     "id": "az000007",
@@ -673,7 +692,9 @@
     "_betweenness_centrality": 0.003,
     "_descendant_ratio": 0.3,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.5
+    "_reachability_ratio": 0.5,
+    "title": "Client Secret / Certificate Credential",
+    "url": "https://learn.microsoft.com/entra/identity-platform/howto-create-service-principal-portal"
   },
   {
     "id": "az000008",
@@ -750,7 +771,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "Key Vault",
+    "url": "https://learn.microsoft.com/azure/key-vault/general/basic-concepts"
   },
   {
     "id": "az000009",
@@ -830,7 +853,9 @@
     "_betweenness_centrality": 0.0,
     "_descendant_ratio": 0.1,
     "_prerequisite_ratio": 0.4,
-    "_reachability_ratio": 0.3
+    "_reachability_ratio": 0.3,
+    "title": "Key Vault Secret",
+    "url": "https://learn.microsoft.com/azure/key-vault/secrets/about-secrets"
   },
   {
     "id": "az000010",
@@ -934,7 +959,9 @@
     "_betweenness_centrality": 0.03,
     "_descendant_ratio": 0.95,
     "_prerequisite_ratio": 0.85,
-    "_reachability_ratio": 0.96
+    "_reachability_ratio": 0.96,
+    "title": "Azure Machine Learning Workspace",
+    "url": "https://learn.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning"
   },
   {
     "id": "az000011",
@@ -1015,7 +1042,9 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Compute Cluster",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-create-attach-compute-cluster"
   },
   {
     "id": "az000012",
@@ -1095,7 +1124,9 @@
     "_betweenness_centrality": 0.006,
     "_descendant_ratio": 0.4,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "Compute Instance",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-create-manage-compute-instance"
   },
   {
     "id": "az000013",
@@ -1176,7 +1207,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "Environment",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-use-environments"
   },
   {
     "id": "az000014",
@@ -1251,7 +1284,9 @@
     "_betweenness_centrality": 0.003,
     "_descendant_ratio": 0.3,
     "_prerequisite_ratio": 0.4,
-    "_reachability_ratio": 0.45
+    "_reachability_ratio": 0.45,
+    "title": "Conda File",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-use-environments#conda"
   },
   {
     "id": "az000015",
@@ -1262,7 +1297,8 @@
       "az000023"
     ],
     "from": [
-      "az000010"
+      "az000010",
+      "az000278"
     ],
     "category": "Machine Learning; Environment",
     "definition": "A container image used as the runtime environment for ML training and inference.",
@@ -1331,7 +1367,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "Docker Image",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-deploy-custom-docker-image"
   },
   {
     "id": "az000016",
@@ -1412,7 +1450,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Data Asset",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-create-data-assets"
   },
   {
     "id": "az000017",
@@ -1517,7 +1557,9 @@
     "_betweenness_centrality": 0.022,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Job",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-train-model"
   },
   {
     "id": "az000018",
@@ -1601,7 +1643,9 @@
     "_betweenness_centrality": 0.021,
     "_descendant_ratio": 0.68,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Pipeline",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-create-pipelines"
   },
   {
     "id": "az000019",
@@ -1682,7 +1726,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.4,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "Pipeline Component",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-create-component-pipeline"
   },
   {
     "id": "az000020",
@@ -1779,7 +1825,9 @@
     "_betweenness_centrality": 0.024,
     "_descendant_ratio": 0.9,
     "_prerequisite_ratio": 0.8,
-    "_reachability_ratio": 0.94
+    "_reachability_ratio": 0.94,
+    "title": "Azure AI Foundry Project",
+    "url": "https://learn.microsoft.com/azure/ai-studio/overview"
   },
   {
     "id": "az000021",
@@ -1807,8 +1855,9 @@
       "az000183",
       "az000186",
       "az000228",
+      "az000254",
       "az000259",
-      "az000254"
+      "az000282"
     ],
     "category": "Machine Learning; Model",
     "definition": "A trained machine learning model artifact managed by Azure ML.",
@@ -1877,7 +1926,9 @@
     "_betweenness_centrality": 0.023,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "Model",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-manage-models"
   },
   {
     "id": "az000022",
@@ -1958,7 +2009,9 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.45,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "Model Version",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-model-management-and-deployment#model-versioning"
   },
   {
     "id": "az000023",
@@ -2048,7 +2101,9 @@
     "_betweenness_centrality": 0.021,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Online Endpoint",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-deploy-online-endpoints"
   },
   {
     "id": "az000024",
@@ -2137,7 +2192,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Endpoint Deployment",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-deploy-online-endpoints#deployments"
   },
   {
     "id": "az000025",
@@ -2215,7 +2272,9 @@
     "_betweenness_centrality": 0.007,
     "_descendant_ratio": 0.35,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.55
+    "_reachability_ratio": 0.55,
+    "title": "Batch Endpoint",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-deploy-batch-endpoints"
   },
   {
     "id": "az000026",
@@ -2293,7 +2352,9 @@
     "_betweenness_centrality": 0.004,
     "_descendant_ratio": 0.3,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.5
+    "_reachability_ratio": 0.5,
+    "title": "Responsible AI Dashboard",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-responsible-ai-dashboard"
   },
   {
     "id": "az000027",
@@ -2375,7 +2436,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "MLflow Tracking Server",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-use-mlflow"
   },
   {
     "id": "az000028",
@@ -2455,7 +2518,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.4,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "MLflow Experiment",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-use-mlflow#experiments"
   },
   {
     "id": "az000029",
@@ -2535,7 +2600,9 @@
     "_betweenness_centrality": 0.007,
     "_descendant_ratio": 0.35,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.55
+    "_reachability_ratio": 0.55,
+    "title": "MLflow Run",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-use-mlflow#runs"
   },
   {
     "id": "az000030",
@@ -2627,7 +2694,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "Azure OpenAI Connection",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/connect-openai"
   },
   {
     "id": "az000151",
@@ -2706,7 +2775,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.82,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.88
+    "_reachability_ratio": 0.88,
+    "title": "Tokenizer",
+    "url": "https://learn.microsoft.com/azure/search/search-analyzers#tokenizers"
   },
   {
     "id": "az000152",
@@ -2785,7 +2856,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.78,
     "_prerequisite_ratio": 0.68,
-    "_reachability_ratio": 0.86
+    "_reachability_ratio": 0.86,
+    "title": "Text Chunker",
+    "url": "https://learn.microsoft.com/azure/search/cognitive-search-skill-textsplit"
   },
   {
     "id": "az000153",
@@ -2866,7 +2939,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.75,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.84
+    "_reachability_ratio": 0.84,
+    "title": "Embedding Pipeline",
+    "url": "https://learn.microsoft.com/azure/search/vector-search-integrated-vectorization"
   },
   {
     "id": "az000154",
@@ -2941,7 +3016,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.72,
     "_prerequisite_ratio": 0.62,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "Document Parser",
+    "url": "https://learn.microsoft.com/azure/ai-services/document-intelligence/"
   },
   {
     "id": "az000155",
@@ -3019,7 +3096,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "OCR Preprocessor",
+    "url": "https://learn.microsoft.com/azure/ai-services/document-intelligence/overview"
   },
   {
     "id": "az000156",
@@ -3093,7 +3172,9 @@
     "_betweenness_centrality": 0.019,
     "_descendant_ratio": 0.8,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.87
+    "_reachability_ratio": 0.87,
+    "title": "Data Labeling Project",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-create-data-labeling-projects"
   },
   {
     "id": "az000157",
@@ -3179,7 +3260,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.76,
     "_prerequisite_ratio": 0.67,
-    "_reachability_ratio": 0.85
+    "_reachability_ratio": 0.85,
+    "title": "Annotation Tool",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-label-data"
   },
   {
     "id": "az000158",
@@ -3261,7 +3344,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.74,
     "_prerequisite_ratio": 0.64,
-    "_reachability_ratio": 0.83
+    "_reachability_ratio": 0.83,
+    "title": "Dataset Validator",
+    "url": "https://learn.microsoft.com/azure/data-factory/control-flow-validation-activity"
   },
   {
     "id": "az000159",
@@ -3339,7 +3424,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Data Cleaning Pipeline",
+    "url": "https://learn.microsoft.com/fabric/data-factory/dataflows/overview-dataflows"
   },
   {
     "id": "az000160",
@@ -3417,7 +3504,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.69,
     "_prerequisite_ratio": 0.59,
-    "_reachability_ratio": 0.79
+    "_reachability_ratio": 0.79,
+    "title": "Text Normalizer",
+    "url": "https://learn.microsoft.com/azure/search/search-normalizers"
   },
   {
     "id": "az000161",
@@ -3491,7 +3580,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.66,
     "_prerequisite_ratio": 0.58,
-    "_reachability_ratio": 0.77
+    "_reachability_ratio": 0.77,
+    "title": "Text Filter",
+    "url": "https://learn.microsoft.com/azure/search/search-filters"
   },
   {
     "id": "az000162",
@@ -3569,7 +3660,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.64,
     "_prerequisite_ratio": 0.57,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "Metadata Extractor",
+    "url": "https://learn.microsoft.com/azure/ai-services/document-intelligence/how-to-guides/create-extractor"
   },
   {
     "id": "az000163",
@@ -3579,10 +3672,10 @@
       "az000231"
     ],
     "from": [
+      "az000126",
       "az000153",
       "az000162",
-      "az000177",
-      "az000126"
+      "az000177"
     ],
     "category": "AI; Data Processing",
     "definition": "A storage system for embeddings and metadata used in retrieval pipelines.",
@@ -3659,7 +3752,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.56,
-    "_reachability_ratio": 0.75
+    "_reachability_ratio": 0.75,
+    "title": "Document Embedding Store",
+    "url": "https://learn.microsoft.com/azure/azure-functions/functions-bindings-openai-embeddingsstore-output"
   },
   {
     "id": "az000164",
@@ -3740,7 +3835,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.74
+    "_reachability_ratio": 0.74,
+    "title": "Data Ingestion Pipeline",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-data-ingestion"
   },
   {
     "id": "az000165",
@@ -3818,7 +3915,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.58,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.73
+    "_reachability_ratio": 0.73,
+    "title": "Data Transformation Component",
+    "url": "https://learn.microsoft.com/azure/data-factory/concepts-data-flow-overview"
   },
   {
     "id": "az000166",
@@ -3893,7 +3992,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.57,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.73
+    "_reachability_ratio": 0.73,
+    "title": "Data Quality Monitor",
+    "url": "https://learn.microsoft.com/azure/databricks/data-quality-monitoring/"
   },
   {
     "id": "az000167",
@@ -3972,7 +4073,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.56,
     "_prerequisite_ratio": 0.53,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "Preprocessing Pipeline",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-ml-pipelines"
   },
   {
     "id": "az000168",
@@ -4050,7 +4153,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.54,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.71
+    "_reachability_ratio": 0.71,
+    "title": "Data Pipeline Run",
+    "url": "https://learn.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers"
   },
   {
     "id": "az000169",
@@ -4128,7 +4233,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.52,
     "_prerequisite_ratio": 0.51,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Data Pipeline Artifact",
+    "url": "https://learn.microsoft.com/azure/devops/pipelines/artifacts/"
   },
   {
     "id": "az000170",
@@ -4206,14 +4313,18 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.51,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Data Catalog Entry",
+    "url": "https://learn.microsoft.com/azure/data-catalog/"
   },
   {
     "id": "az000171",
     "label": "Agent Orchestrator",
     "from": [
       "az000001",
-      "az000134"
+      "az000134",
+      "az000264",
+      "az000267"
     ],
     "to": [
       "az000129",
@@ -4222,10 +4333,10 @@
       "az000135",
       "az000172",
       "az000173",
+      "az000174",
       "az000234",
       "az000249",
-      "az000250",
-      "az000174"
+      "az000250"
     ],
     "category": "AI Agents; Orchestration",
     "definition": "A coordination engine that manages multi-agent workflows and execution.",
@@ -4294,7 +4405,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.72,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Agent Orchestrator",
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/agent-orchestration-patterns"
   },
   {
     "id": "az000172",
@@ -4373,7 +4486,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Agent Router",
+    "url": "https://learn.microsoft.com/microsoft-foundry/agent-service/model-router"
   },
   {
     "id": "az000173",
@@ -4456,7 +4571,9 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.48,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.66
+    "_reachability_ratio": 0.66,
+    "title": "Agent Policy Engine",
+    "url": "https://learn.microsoft.com/azure/governance/policy/concepts/policy-for-kubernetes"
   },
   {
     "id": "az000174",
@@ -4464,12 +4581,25 @@
     "from": [
       "az000001",
       "az000002",
+      "az000032",
+      "az000171",
       "az000173",
+      "az000239",
       "az000253",
       "az000259",
-      "az000171",
-      "az000239",
-      "az000032"
+      "az000264",
+      "az000266",
+      "az000267",
+      "az000271",
+      "az000272",
+      "az000288",
+      "az000289",
+      "az000290",
+      "az000291",
+      "az000292",
+      "az000295",
+      "az000296",
+      "az000297"
     ],
     "to": [
       "az000212"
@@ -4537,7 +4667,9 @@
     "_betweenness_centrality": 0.008,
     "_descendant_ratio": 0.32,
     "_prerequisite_ratio": 0.4,
-    "_reachability_ratio": 0.55
+    "_reachability_ratio": 0.55,
+    "title": "Agent Execution Trace",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/trace/trace-agent"
   },
   {
     "id": "az000175",
@@ -4618,7 +4750,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.75
+    "_reachability_ratio": 0.75,
+    "title": "Agent Session",
+    "url": "https://learn.microsoft.com/dotnet/api/microsoft.agents.core.agentsession"
   },
   {
     "id": "az000176",
@@ -4695,7 +4829,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.68
+    "_reachability_ratio": 0.68,
+    "title": "Agent State Store",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/agents/state-management"
   },
   {
     "id": "az000177",
@@ -4703,13 +4839,15 @@
     "from": [
       "az000176",
       "az000233",
-      "az000260a"
+      "az000260a",
+      "az000269",
+      "az000296"
     ],
     "to": [
       "az000013",
+      "az000163",
       "az000198",
-      "az000232",
-      "az000163"
+      "az000232"
     ],
     "category": "AI Agents; Knowledge",
     "definition": "A structured knowledge repository used by agents for reasoning and retrieval.",
@@ -4778,14 +4916,17 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.4,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "Agent Knowledge Base",
+    "url": "https://learn.microsoft.com/azure/search/knowledge-store"
   },
   {
     "id": "az000178",
     "label": "Agent Tool Registry",
     "from": [
       "az000010",
-      "az000259"
+      "az000259",
+      "az000281"
     ],
     "to": [
       "az000013",
@@ -4860,7 +5001,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Agent Tool Registry",
+    "url": "https://learn.microsoft.com/training/modules/integrate-agent-tools-mcp-server-client/"
   },
   {
     "id": "az000179",
@@ -4941,7 +5084,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.4,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "Agent Tool Schema",
+    "url": "https://learn.microsoft.com/azure/app-service/integrate-web-app-openapi-foundry-agent"
   },
   {
     "id": "az000180",
@@ -5015,7 +5160,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Browser Tool",
+    "url": "https://learn.microsoft.com/microsoft-foundry/agent-service/browser-automation-tool"
   },
   {
     "id": "az000181",
@@ -5089,7 +5236,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.58,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "Code Interpreter Tool",
+    "url": "https://learn.microsoft.com/microsoft-foundry/agent-service/code-interpreter"
   },
   {
     "id": "az000182",
@@ -5166,7 +5315,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.52,
     "_prerequisite_ratio": 0.48,
-    "_reachability_ratio": 0.68
+    "_reachability_ratio": 0.68,
+    "title": "SQL Query Tool",
+    "url": "https://learn.microsoft.com/azure/azure-sql/database/query-editor"
   },
   {
     "id": "az000183",
@@ -5246,7 +5397,9 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.47,
-    "_reachability_ratio": 0.66
+    "_reachability_ratio": 0.66,
+    "title": "Graph Query Tool",
+    "url": "https://learn.microsoft.com/fabric/data-warehouse/gql"
   },
   {
     "id": "az000184",
@@ -5325,14 +5478,19 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.74
+    "_reachability_ratio": 0.74,
+    "title": "Vector Search Tool",
+    "url": "https://learn.microsoft.com/azure/search/vector-search-overview"
   },
   {
     "id": "az000185",
     "label": "API Connector Tool",
     "from": [
       "az000001",
-      "az000002"
+      "az000002",
+      "az000268",
+      "az000270",
+      "az000284"
     ],
     "to": [],
     "category": "AI Agents; Tools",
@@ -5402,14 +5560,18 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "API Connector Tool",
+    "url": "https://learn.microsoft.com/azure/active-directory-b2c/api-connectors-overview"
   },
   {
     "id": "az000186",
     "label": "Automation Tool",
     "from": [
       "az000001",
-      "az000002"
+      "az000002",
+      "az000266",
+      "az000268"
     ],
     "to": [
       "az000021"
@@ -5477,14 +5639,17 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.48,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "Automation Tool",
+    "url": "https://learn.microsoft.com/azure/automation/"
   },
   {
     "id": "az000187",
     "label": "Azure AI Orchestration Flow",
     "from": [
       "az000020",
-      "az000030"
+      "az000030",
+      "az000276"
     ],
     "to": [
       "az000188",
@@ -5557,7 +5722,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Azure AI Orchestration Flow",
+    "url": "https://learn.microsoft.com/azure/ai-services/language-service/orchestration-workflow/overview"
   },
   {
     "id": "az000188",
@@ -5632,7 +5799,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "AI Orchestration Step",
+    "url": "https://learn.microsoft.com/azure/ai-services/language-service/orchestration-workflow/how-to/create-project"
   },
   {
     "id": "az000189",
@@ -5711,14 +5880,19 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.4,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "AI Orchestration Trigger",
+    "url": "https://learn.microsoft.com/azure/logic-apps/logic-apps-overview#triggers-and-actions"
   },
   {
     "id": "az000190",
     "label": "AI Safety Guardrail",
     "from": [
       "az000001",
-      "az000238"
+      "az000238",
+      "az000295",
+      "az000296",
+      "az000297"
     ],
     "to": [
       "az000191"
@@ -5790,7 +5964,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.68,
     "_prerequisite_ratio": 0.58,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "AI Safety Guardrail",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/overview"
   },
   {
     "id": "az000191",
@@ -5872,7 +6048,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "AI Safety Policy",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/content-filter"
   },
   {
     "id": "az000192",
@@ -5952,7 +6130,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.48,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "AI Safety Evaluation Report",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/evaluate/generative-ai-evaluation"
   },
   {
     "id": "az000193",
@@ -6032,7 +6212,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.74
+    "_reachability_ratio": 0.74,
+    "title": "Weaviate Vector Store",
+    "url": "https://learn.microsoft.com/semantic-kernel/ai-orchestration/vector-store-connectors/weaviate"
   },
   {
     "id": "az000194",
@@ -6109,7 +6291,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Qdrant Vector Store",
+    "url": "https://learn.microsoft.com/semantic-kernel/ai-orchestration/vector-store-connectors/qdrant"
   },
   {
     "id": "az000195",
@@ -6189,7 +6373,9 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.47,
-    "_reachability_ratio": 0.66
+    "_reachability_ratio": 0.66,
+    "title": "FAISS Index",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-vector-stores#faiss"
   },
   {
     "id": "az000196",
@@ -6267,7 +6453,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.52,
     "_prerequisite_ratio": 0.48,
-    "_reachability_ratio": 0.68
+    "_reachability_ratio": 0.68,
+    "title": "Elastic Vector Search",
+    "url": "https://learn.microsoft.com/azure/search/vector-search-overview"
   },
   {
     "id": "az000197",
@@ -6345,15 +6533,17 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.48,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "OpenSearch Vector Index",
+    "url": "https://learn.microsoft.com/azure/search/vector-search-how-to-create-index"
   },
   {
     "id": "az000198",
     "label": "GraphRAG Knowledge Graph",
     "from": [
+      "az000041",
       "az000177",
       "az000183",
-      "az000041",
       "az000260"
     ],
     "to": [
@@ -6423,7 +6613,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "GraphRAG Knowledge Graph",
+    "url": "https://learn.microsoft.com/training/modules/explore-graphrag-azure-database-postgresql/"
   },
   {
     "id": "az000199",
@@ -6501,7 +6693,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "GraphRAG Query Engine",
+    "url": "https://learn.microsoft.com/training/modules/explore-graphrag-azure-database-postgresql/"
   },
   {
     "id": "az000200",
@@ -6579,7 +6773,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Prompt Guardrail",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/quickstart-prompt-shields"
   },
   {
     "id": "az000201",
@@ -6657,7 +6853,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.58,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "Prompt Policy",
+    "url": "https://learn.microsoft.com/azure/governance/policy/concepts/definition-structure"
   },
   {
     "id": "az000202",
@@ -6731,15 +6929,17 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.48,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "Prompt Template Version",
+    "url": "https://learn.microsoft.com/azure/machine-learning/prompt-flow/tools-reference/prompt-tool"
   },
   {
     "id": "az000203",
     "label": "Prompt Optimization Pipeline",
     "from": [],
     "to": [
-      "az000204",
-      "az000037"
+      "az000037",
+      "az000204"
     ],
     "category": "Prompting; Optimization",
     "definition": "A pipeline that automatically optimizes prompts for accuracy, safety, and cost.",
@@ -6808,7 +7008,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "Prompt Optimization Pipeline",
+    "url": "https://learn.microsoft.com/azure/machine-learning/prompt-flow/how-to-tune-prompts-using-variants"
   },
   {
     "id": "az000204",
@@ -6886,7 +7088,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Prompt Optimization Report",
+    "url": "https://learn.microsoft.com/azure/machine-learning/prompt-flow/how-to-evaluate-prompts"
   },
   {
     "id": "az000205",
@@ -6964,7 +7168,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Azure ML Serverless Compute",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-serverless-compute"
   },
   {
     "id": "az000206",
@@ -7046,7 +7252,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Inference Autoscaling Profile",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-autoscale-endpoints"
   },
   {
     "id": "az000207",
@@ -7119,7 +7327,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.74
+    "_reachability_ratio": 0.74,
+    "title": "Model Serving Pool",
+    "url": "https://learn.microsoft.com/azure/databricks/serving/"
   },
   {
     "id": "az000208",
@@ -7197,7 +7407,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.48,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "Model Serving Configuration",
+    "url": "https://learn.microsoft.com/azure/databricks/serving/configure-serving-endpoint"
   },
   {
     "id": "az000209",
@@ -7291,7 +7503,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "AI Gateway",
+    "url": "https://learn.microsoft.com/azure/databricks/serving/ai-gateway"
   },
   {
     "id": "az000210",
@@ -7367,14 +7581,16 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Private Link Hub",
+    "url": "https://learn.microsoft.com/azure/architecture/networking/private-link-hub-spoke"
   },
   {
     "id": "az000211",
     "label": "AI Governance Policy",
     "from": [
-      "az000259",
-      "az000255"
+      "az000255",
+      "az000259"
     ],
     "to": [
       "az000212"
@@ -7446,14 +7662,16 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "AI Governance Policy",
+    "url": "https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/governance"
   },
   {
     "id": "az000212",
     "label": "AI Audit Log",
     "from": [
-      "az000211",
-      "az000174"
+      "az000174",
+      "az000211"
     ],
     "to": [],
     "category": "Security; Governance",
@@ -7523,15 +7741,17 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "AI Audit Log",
+    "url": "https://learn.microsoft.com/azure/azure-monitor/reference/tables/copilotactivity"
   },
   {
     "id": "az000213",
     "label": "MAI Model Catalog",
     "from": [
-      "az000256c",
       "az000223",
-      "az000224"
+      "az000224",
+      "az000256c"
     ],
     "to": [
       "az000214",
@@ -7604,7 +7824,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "MAI Model Catalog",
+    "url": "https://learn.microsoft.com/microsoft-foundry/model-catalog/mai"
   },
   {
     "id": "az000214",
@@ -7682,7 +7904,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "MAI Model Registry",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-manage-models"
   },
   {
     "id": "az000215",
@@ -7761,7 +7985,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "MAI Model Variant",
+    "url": "https://learn.microsoft.com/microsoft-foundry/model-catalog/mai/mai-image"
   },
   {
     "id": "az000216",
@@ -7839,7 +8065,9 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.48,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "MAI Model Adapter",
+    "url": "https://learn.microsoft.com/semantic-kernel/ai-orchestration/vector-store-connectors/"
   },
   {
     "id": "az000217",
@@ -7918,7 +8146,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.42,
     "_prerequisite_ratio": 0.44,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "MAI Runtime",
+    "url": "https://learn.microsoft.com/dotnet/api/microsoft.agents.core.runtime"
   },
   {
     "id": "az000218",
@@ -8000,7 +8230,9 @@
     "_betweenness_centrality": 0.008,
     "_descendant_ratio": 0.38,
     "_prerequisite_ratio": 0.42,
-    "_reachability_ratio": 0.55
+    "_reachability_ratio": 0.55,
+    "title": "MAI Safety Layer",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/overview"
   },
   {
     "id": "az000219",
@@ -8081,7 +8313,9 @@
     "_betweenness_centrality": 0.007,
     "_descendant_ratio": 0.32,
     "_prerequisite_ratio": 0.4,
-    "_reachability_ratio": 0.5
+    "_reachability_ratio": 0.5,
+    "title": "MAI System Configuration",
+    "url": "https://learn.microsoft.com/dotnet/api/microsoft.agents.core.agentsystem"
   },
   {
     "id": "az000220",
@@ -8160,7 +8394,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "MAI‑1 Base",
+    "url": "https://learn.microsoft.com/microsoft-foundry/model-catalog/mai/mai-transcribe"
   },
   {
     "id": "az000221",
@@ -8238,7 +8474,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "MAI‑1 Instruct",
+    "url": "https://learn.microsoft.com/microsoft-foundry/tools/azure-speech/mai-voice"
   },
   {
     "id": "az000222",
@@ -8315,15 +8553,17 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "MAI‑1 Reasoning",
+    "url": "https://learn.microsoft.com/microsoft-foundry/model-catalog/mai"
   },
   {
     "id": "az000223",
     "label": "MAI‑1 Vision",
     "from": [],
     "to": [
-      "az000224",
-      "az000213"
+      "az000213",
+      "az000224"
     ],
     "category": "MAI Models; Vision",
     "definition": "A multimodal MAI‑1 variant optimized for image understanding and visual reasoning.",
@@ -8392,7 +8632,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.68,
     "_prerequisite_ratio": 0.58,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "MAI‑1 Vision",
+    "url": "https://learn.microsoft.com/microsoft-foundry/model-catalog/mai/mai-image"
   },
   {
     "id": "az000224",
@@ -8474,7 +8716,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "MAI‑1 Audio",
+    "url": "https://learn.microsoft.com/microsoft-foundry/tools/azure-speech/mai-voice"
   },
   {
     "id": "az000225",
@@ -8552,7 +8796,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "MAI‑1 Mini",
+    "url": "https://learn.microsoft.com/microsoft-foundry/model-catalog/mai/mai-image"
   },
   {
     "id": "az000226",
@@ -8626,7 +8872,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "MAI‑1 Small",
+    "url": "https://learn.microsoft.com/microsoft-foundry/model-catalog/mai/mai-image"
   },
   {
     "id": "az000227",
@@ -8704,7 +8952,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.47,
-    "_reachability_ratio": 0.66
+    "_reachability_ratio": 0.66,
+    "title": "MAI‑1 Medium",
+    "url": "https://learn.microsoft.com/microsoft-foundry/model-catalog/mai/mai-image"
   },
   {
     "id": "az000228",
@@ -8782,15 +9032,17 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.45,
     "_prerequisite_ratio": 0.44,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "MAI‑1 Large",
+    "url": "https://learn.microsoft.com/microsoft-foundry/model-catalog/mai/mai-image"
   },
   {
     "id": "az000229",
     "label": "Agent Execution Sandbox",
     "from": [],
     "to": [
-      "az000230",
-      "az000135"
+      "az000135",
+      "az000230"
     ],
     "category": "AI Agents; Runtime",
     "definition": "A secure sandbox environment for executing agent code and tool calls.",
@@ -8859,7 +9111,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.74
+    "_reachability_ratio": 0.74,
+    "title": "Agent Execution Sandbox",
+    "url": "https://learn.microsoft.com/microsoft-foundry/agent-service/code-interpreter#sandbox-environment"
   },
   {
     "id": "az000230",
@@ -8941,7 +9195,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Agent Execution Policy",
+    "url": "https://learn.microsoft.com/azure/sre/agent/execution-modes"
   },
   {
     "id": "az000231",
@@ -9015,7 +9271,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.58,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "RAG Cache",
+    "url": "https://learn.microsoft.com/azure/cosmos-db/semantic-cache"
   },
   {
     "id": "az000232",
@@ -9098,7 +9356,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.47,
-    "_reachability_ratio": 0.66
+    "_reachability_ratio": 0.66,
+    "title": "RAG Query Planner",
+    "url": "https://learn.microsoft.com/azure/databricks/generative-ai/rag-chain"
   },
   {
     "id": "az000233",
@@ -9176,7 +9436,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.45,
     "_prerequisite_ratio": 0.44,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "RAG Fusion Engine",
+    "url": "https://learn.microsoft.com/training/modules/improve-accuracy-advanced-rag-architectures/"
   },
   {
     "id": "az000234",
@@ -9255,7 +9517,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "MAI Agent Runtime",
+    "url": "https://learn.microsoft.com/dotnet/api/microsoft.agents.core.runtime"
   },
   {
     "id": "az000235",
@@ -9333,7 +9597,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "MAI Agent Container",
+    "url": "https://learn.microsoft.com/azure/container-apps/agents"
   },
   {
     "id": "az000236",
@@ -9412,15 +9678,17 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "MAI Agent Memory Store",
+    "url": "https://learn.microsoft.com/microsoft-foundry/agent-service/memory"
   },
   {
     "id": "az000237",
     "label": "MAI Policy Engine",
     "from": [],
     "to": [
-      "az000238",
-      "az000191"
+      "az000191",
+      "az000238"
     ],
     "category": "MAI Platform; Governance",
     "definition": "A policy engine enforcing safety, compliance, and operational rules for MAI systems.",
@@ -9489,7 +9757,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "MAI Policy Engine",
+    "url": "https://learn.microsoft.com/microsoft-365/compliance/mip-sdk-policyengine"
   },
   {
     "id": "az000238",
@@ -9567,20 +9837,22 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "MAI Guardrail Engine",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/overview"
   },
   {
     "id": "az000239",
     "label": "MAI Evaluation Suite",
     "from": [
+      "az000032",
       "az000244",
       "az000245",
-      "az000246",
-      "az000032"
+      "az000246"
     ],
     "to": [
-      "az000240",
       "az000174",
+      "az000240",
       "az000244",
       "az000245",
       "az000246"
@@ -9652,7 +9924,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "MAI Evaluation Suite",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/evaluate/"
   },
   {
     "id": "az000240",
@@ -9731,14 +10005,16 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "MAI Evaluation Report",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/evaluate/generative-ai-evaluation"
   },
   {
     "id": "az000241",
     "label": "GraphRAG Context Optimizer",
     "from": [
-      "az000240",
-      "az000198"
+      "az000198",
+      "az000240"
     ],
     "to": [
       "az000030",
@@ -9812,7 +10088,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.58,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "GraphRAG Context Optimizer",
+    "url": "https://learn.microsoft.com/training/modules/explore-graphrag-azure-database-postgresql/"
   },
   {
     "id": "az000242",
@@ -9892,7 +10170,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.47,
-    "_reachability_ratio": 0.66
+    "_reachability_ratio": 0.66,
+    "title": "GraphRAG Fusion Engine",
+    "url": "https://learn.microsoft.com/training/modules/explore-graphrag-azure-database-postgresql/"
   },
   {
     "id": "az000243",
@@ -9968,15 +10248,17 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.74
+    "_reachability_ratio": 0.74,
+    "title": "Model Drift Detector",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-monitor-data-drift"
   },
   {
     "id": "az000244",
     "label": "Embedding Drift Monitor",
     "from": [
       "az000010",
-      "az000243",
-      "az000239"
+      "az000239",
+      "az000243"
     ],
     "to": [
       "az000239"
@@ -10036,7 +10318,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Embedding Drift Monitor",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-monitor-data-drift"
   },
   {
     "id": "az000245",
@@ -10046,8 +10330,8 @@
       "az000239"
     ],
     "to": [
-      "az000246",
-      "az000239"
+      "az000239",
+      "az000246"
     ],
     "category": "Azure ML; Monitoring",
     "definition": "A monitor that detects changes in prompt patterns affecting model performance.",
@@ -10116,15 +10400,17 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.58,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "Prompt Drift Monitor",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/concepts/content-filter#prompt-injection-detection"
   },
   {
     "id": "az000246",
     "label": "Safety Drift Monitor",
     "from": [
       "az000010",
-      "az000245",
-      "az000239"
+      "az000239",
+      "az000245"
     ],
     "to": [
       "az000239"
@@ -10196,15 +10482,17 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Safety Drift Monitor",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/overview"
   },
   {
     "id": "az000247",
     "label": "RAG Rewriter",
     "from": [],
     "to": [
-      "az000248",
-      "az000081"
+      "az000081",
+      "az000248"
     ],
     "category": "RAG; Optimization",
     "definition": "A component that rewrites user queries to improve retrieval accuracy.",
@@ -10273,7 +10561,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "RAG Rewriter",
+    "url": "https://learn.microsoft.com/azure/databricks/generative-ai/rag-chain"
   },
   {
     "id": "az000248",
@@ -10347,13 +10637,17 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.47,
-    "_reachability_ratio": 0.66
+    "_reachability_ratio": 0.66,
+    "title": "RAG Context Window Manager",
+    "url": "https://learn.microsoft.com/microsoft-foundry/agent-service/rag-context-providers"
   },
   {
     "id": "az000249",
     "label": "Agent Collaboration Protocol",
     "from": [
-      "az000171"
+      "az000171",
+      "az000286",
+      "az000288"
     ],
     "to": [
       "az000135",
@@ -10426,14 +10720,17 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.74
+    "_reachability_ratio": 0.74,
+    "title": "Agent Collaboration Protocol",
+    "url": "https://learn.microsoft.com/microsoft-copilot-studio/agent2agent-protocol"
   },
   {
     "id": "az000250",
     "label": "Agent Delegation Engine",
     "from": [
+      "az000171",
       "az000249",
-      "az000171"
+      "az000271"
     ],
     "to": [
       "az000175",
@@ -10506,7 +10803,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Agent Delegation Engine",
+    "url": "https://learn.microsoft.com/dotnet/api/microsoft.agents.core.workflows"
   },
   {
     "id": "az000251",
@@ -10584,7 +10883,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.54,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "AI Compliance Profile",
+    "url": "https://learn.microsoft.com/training/modules/compliance-governance-practices/"
   },
   {
     "id": "az000252",
@@ -10662,7 +10963,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "AI Risk Assessment",
+    "url": "https://learn.microsoft.com/microsoft-foundry/evaluate/risk-safety-evaluators"
   },
   {
     "id": "az000253",
@@ -10740,15 +11043,17 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.48,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "AI Usage Policy",
+    "url": "https://learn.microsoft.com/legal/cognitive-services/openai/code-of-conduct"
   },
   {
     "id": "az000254",
     "label": "Model Fact Sheet",
     "from": [],
     "to": [
-      "az000255",
-      "az000021"
+      "az000021",
+      "az000255"
     ],
     "category": "Security; Governance",
     "definition": "A documentation artifact describing a model’s purpose, limitations, and risks.",
@@ -10817,7 +11122,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Model Fact Sheet",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/model-catalog/model-fact-sheet"
   },
   {
     "id": "az000255",
@@ -10895,7 +11202,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.47,
-    "_reachability_ratio": 0.66
+    "_reachability_ratio": 0.66,
+    "title": "Model Safety Card",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/model-catalog/model-safety-card"
   },
   {
     "id": "az000256",
@@ -10906,7 +11215,8 @@
       "az000256b",
       "az000257",
       "az000258",
-      "az000259"
+      "az000259",
+      "az000273"
     ],
     "from": [
       "az000001",
@@ -10987,7 +11297,9 @@
     "_betweenness_centrality": 0.035,
     "_descendant_ratio": 0.98,
     "_prerequisite_ratio": 0.9,
-    "_reachability_ratio": 0.99
+    "_reachability_ratio": 0.99,
+    "title": "Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry"
   },
   {
     "id": "az000257",
@@ -11075,7 +11387,9 @@
     "_betweenness_centrality": 0.03,
     "_descendant_ratio": 0.96,
     "_prerequisite_ratio": 0.88,
-    "_reachability_ratio": 0.98
+    "_reachability_ratio": 0.98,
+    "title": "Foundry Resource",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/architecture"
   },
   {
     "id": "az000258",
@@ -11105,7 +11419,8 @@
       "az000136",
       "az000256c",
       "az000259",
-      "az000260"
+      "az000260",
+      "az000273"
     ],
     "from": [
       "az000256",
@@ -11179,7 +11494,9 @@
     "_betweenness_centrality": 0.028,
     "_descendant_ratio": 0.94,
     "_prerequisite_ratio": 0.85,
-    "_reachability_ratio": 0.97
+    "_reachability_ratio": 0.97,
+    "title": "Foundry Project",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/architecture#project"
   },
   {
     "id": "az000259",
@@ -11273,7 +11590,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.8,
     "_prerequisite_ratio": 0.75,
-    "_reachability_ratio": 0.9
+    "_reachability_ratio": 0.9,
+    "title": "Foundry Project Asset",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/architecture#project-assets"
   },
   {
     "id": "az000256a",
@@ -11352,7 +11671,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Foundry AI Hub (Classic)",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry-classic/concepts/ai-resources"
   },
   {
     "id": "az000256b",
@@ -11441,7 +11762,9 @@
     "_betweenness_centrality": 0.022,
     "_descendant_ratio": 0.85,
     "_prerequisite_ratio": 0.78,
-    "_reachability_ratio": 0.92
+    "_reachability_ratio": 0.92,
+    "title": "Foundry API",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry#your-first-api-call"
   },
   {
     "id": "az000256c",
@@ -11526,19 +11849,21 @@
     "_betweenness_centrality": 0.024,
     "_descendant_ratio": 0.9,
     "_prerequisite_ratio": 0.82,
-    "_reachability_ratio": 0.95
+    "_reachability_ratio": 0.95,
+    "title": "Foundry Model Catalog",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/foundry-models-overview"
   },
   {
     "id": "az000260",
     "label": "Foundry IQ",
     "to": [
       "az000041",
+      "az000198",
       "az000260a",
       "az000260b",
       "az000260c",
       "az000261",
-      "az000262",
-      "az000198"
+      "az000262"
     ],
     "from": [
       "az000041",
@@ -11611,18 +11936,21 @@
     "_betweenness_centrality": 0.026,
     "_descendant_ratio": 0.9,
     "_prerequisite_ratio": 0.8,
-    "_reachability_ratio": 0.94
+    "_reachability_ratio": 0.94,
+    "title": "Foundry IQ",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/what-is-foundry-iq"
   },
   {
     "id": "az000260a",
     "label": "Foundry IQ Knowledge Base",
     "to": [
+      "az000177",
       "az000260b",
-      "az000260c",
-      "az000177"
+      "az000260c"
     ],
     "from": [
-      "az000260"
+      "az000260",
+      "az000269"
     ],
     "category": "Platform; Microsoft Foundry; Knowledge Management",
     "definition": "A top-level resource orchestrating agentic retrieval — defines knowledge sources to query and retrieval behavior (reasoning effort: minimal, low, medium).",
@@ -11687,7 +12015,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.75,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.86
+    "_reachability_ratio": 0.86,
+    "title": "Foundry IQ Knowledge Base",
+    "url": "https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-create-knowledge-base"
   },
   {
     "id": "az000260b",
@@ -11766,24 +12096,26 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Foundry IQ Knowledge Source",
+    "url": "https://learn.microsoft.com/en-us/azure/search/agentic-knowledge-source-overview"
   },
   {
     "id": "az000260c",
     "label": "Foundry IQ Agentic Retrieval",
     "to": [
+      "az000041",
       "az000082",
       "az000086",
       "az000088",
-      "az000259",
-      "az000041",
-      "az000232"
+      "az000232",
+      "az000259"
     ],
     "from": [
       "az000002",
+      "az000232",
       "az000260",
-      "az000260a",
-      "az000232"
+      "az000260a"
     ],
     "category": "Platform; Microsoft Foundry; Knowledge Management",
     "definition": "A multi-query retrieval pipeline that decomposes complex questions into parallel subqueries, semantically reranks results, enforces Purview permissions, and returns grounded answers with citations.",
@@ -11860,7 +12192,9 @@
     "_betweenness_centrality": 0.022,
     "_descendant_ratio": 0.85,
     "_prerequisite_ratio": 0.75,
-    "_reachability_ratio": 0.9
+    "_reachability_ratio": 0.9,
+    "title": "Foundry IQ Agentic Retrieval",
+    "url": "https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview"
   },
   {
     "id": "az000261",
@@ -11932,7 +12266,9 @@
     "_betweenness_centrality": 0.008,
     "_descendant_ratio": 0.35,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.55
+    "_reachability_ratio": 0.55,
+    "title": "Fabric IQ",
+    "url": "https://learn.microsoft.com/en-us/fabric/iq/overview"
   },
   {
     "id": "az000262",
@@ -12008,7 +12344,9 @@
     "_betweenness_centrality": 0.008,
     "_descendant_ratio": 0.33,
     "_prerequisite_ratio": 0.43,
-    "_reachability_ratio": 0.53
+    "_reachability_ratio": 0.53,
+    "title": "Work IQ",
+    "url": "https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/workiq-overview"
   },
   {
     "id": "az000031",
@@ -12095,7 +12433,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Azure OpenAI Deployment",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/deploy-models"
   },
   {
     "id": "az000032",
@@ -12118,7 +12458,8 @@
       "az000020",
       "az000030",
       "az000256b",
-      "az000258"
+      "az000258",
+      "az000275"
     ],
     "category": "AI; Agents",
     "definition": "A reasoning entity in Azure AI Foundry that uses LLMs, tools, memory, and workflows.",
@@ -12187,7 +12528,9 @@
     "_betweenness_centrality": 0.022,
     "_descendant_ratio": 0.88,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.92
+    "_reachability_ratio": 0.92,
+    "title": "Azure AI Foundry Agent",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/agents-overview"
   },
   {
     "id": "az000033",
@@ -12201,7 +12544,8 @@
       "az000030",
       "az000032",
       "az000072",
-      "az000073"
+      "az000073",
+      "az000281"
     ],
     "category": "AI; Agents",
     "definition": "A callable function or API that an agent can invoke to perform external actions.",
@@ -12270,7 +12614,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Agent Tool",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/agents-tools"
   },
   {
     "id": "az000034",
@@ -12351,7 +12697,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.4,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "Agent Memory",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/agents-memory"
   },
   {
     "id": "az000035",
@@ -12423,7 +12771,9 @@
     "_betweenness_centrality": 0.006,
     "_descendant_ratio": 0.3,
     "_prerequisite_ratio": 0.4,
-    "_reachability_ratio": 0.5
+    "_reachability_ratio": 0.5,
+    "title": "Safety Configuration",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/concepts/safety"
   },
   {
     "id": "az000036",
@@ -12501,7 +12851,9 @@
     "_betweenness_centrality": 0.007,
     "_descendant_ratio": 0.35,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.55
+    "_reachability_ratio": 0.55,
+    "title": "Prompt Template",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/prompt-engineering"
   },
   {
     "id": "az000037",
@@ -12518,8 +12870,8 @@
       "az000020",
       "az000032",
       "az000036",
-      "az000258",
-      "az000203"
+      "az000203",
+      "az000258"
     ],
     "category": "AI; Prompt Flow",
     "definition": "A workflow of LLM calls, tools, and logic nodes used to build AI applications.",
@@ -12588,7 +12940,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Prompt Flow",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/prompt-flow-overview"
   },
   {
     "id": "az000038",
@@ -12663,7 +13017,9 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.45,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "Flow Node",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/prompt-flow-nodes"
   },
   {
     "id": "az000039",
@@ -12743,7 +13099,9 @@
     "_betweenness_centrality": 0.008,
     "_descendant_ratio": 0.38,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.58
+    "_reachability_ratio": 0.58,
+    "title": "Flow Run",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/prompt-flow-run"
   },
   {
     "id": "az000040",
@@ -12757,8 +13115,9 @@
       "az000008",
       "az000037",
       "az000039",
+      "az000204",
       "az000259",
-      "az000204"
+      "az000292"
     ],
     "category": "AI; Evaluation",
     "definition": "A run that evaluates LLM outputs using metrics, test datasets, or human feedback.",
@@ -12823,7 +13182,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.32,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.55
+    "_reachability_ratio": 0.55,
+    "title": "Evaluation Run",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/evaluation-overview"
   },
   {
     "id": "az000041",
@@ -12838,8 +13199,8 @@
       "az000047",
       "az000048",
       "az000096",
-      "az000260",
-      "az000198"
+      "az000198",
+      "az000260"
     ],
     "from": [
       "az000001",
@@ -12849,7 +13210,8 @@
       "az000031",
       "az000257",
       "az000260",
-      "az000260c"
+      "az000260c",
+      "az000283"
     ],
     "category": "Search; Vector Search",
     "definition": "A cloud search service providing full‑text search, semantic search, and vector search capabilities.",
@@ -12914,7 +13276,9 @@
     "_betweenness_centrality": 0.022,
     "_descendant_ratio": 0.88,
     "_prerequisite_ratio": 0.75,
-    "_reachability_ratio": 0.92
+    "_reachability_ratio": 0.92,
+    "title": "Azure AI Search Service",
+    "url": "https://learn.microsoft.com/azure/search/search-what-is-azure-search"
   },
   {
     "id": "az000042",
@@ -12995,7 +13359,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Search Index",
+    "url": "https://learn.microsoft.com/azure/search/search-what-is-an-index"
   },
   {
     "id": "az000043",
@@ -13068,7 +13434,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.4,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "Index Schema",
+    "url": "https://learn.microsoft.com/azure/search/search-index-schema"
   },
   {
     "id": "az000044",
@@ -13145,7 +13513,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Vector Index",
+    "url": "https://learn.microsoft.com/azure/search/vector-search-overview"
   },
   {
     "id": "az000045",
@@ -13223,7 +13593,9 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.45,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "Skillset",
+    "url": "https://learn.microsoft.com/azure/search/cognitive-search-working-with-skillsets"
   },
   {
     "id": "az000046",
@@ -13308,7 +13680,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "Indexer",
+    "url": "https://learn.microsoft.com/azure/search/search-indexer-overview"
   },
   {
     "id": "az000047",
@@ -13387,7 +13761,9 @@
     "_betweenness_centrality": 0.008,
     "_descendant_ratio": 0.38,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.58
+    "_reachability_ratio": 0.58,
+    "title": "Data Source",
+    "url": "https://learn.microsoft.com/azure/search/search-indexer-data-sources"
   },
   {
     "id": "az000048",
@@ -13459,7 +13835,9 @@
     "_betweenness_centrality": 0.006,
     "_descendant_ratio": 0.3,
     "_prerequisite_ratio": 0.4,
-    "_reachability_ratio": 0.5
+    "_reachability_ratio": 0.5,
+    "title": "Synonym Map",
+    "url": "https://learn.microsoft.com/azure/search/search-synonyms"
   },
   {
     "id": "az000049",
@@ -13540,7 +13918,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.75
+    "_reachability_ratio": 0.75,
+    "title": "Vector Store Connection",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/vector-store"
   },
   {
     "id": "az000050",
@@ -13613,7 +13993,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.45,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "Cosmos DB Vector Store",
+    "url": "https://learn.microsoft.com/azure/cosmos-db/vector-search"
   },
   {
     "id": "az000051",
@@ -13705,7 +14087,9 @@
     "_betweenness_centrality": 0.021,
     "_descendant_ratio": 0.85,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.9
+    "_reachability_ratio": 0.9,
+    "title": "Azure Storage Account",
+    "url": "https://learn.microsoft.com/azure/storage/common/storage-introduction"
   },
   {
     "id": "az000052",
@@ -13782,7 +14166,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.75
+    "_reachability_ratio": 0.75,
+    "title": "Blob Container",
+    "url": "https://learn.microsoft.com/azure/storage/blobs/storage-blobs-overview"
   },
   {
     "id": "az000053",
@@ -13862,7 +14248,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "ADLS Gen2 Filesystem",
+    "url": "https://learn.microsoft.com/azure/storage/blobs/data-lake-storage-introduction"
   },
   {
     "id": "az000054",
@@ -13942,7 +14330,9 @@
     "_betweenness_centrality": 0.006,
     "_descendant_ratio": 0.3,
     "_prerequisite_ratio": 0.4,
-    "_reachability_ratio": 0.5
+    "_reachability_ratio": 0.5,
+    "title": "Queue Storage",
+    "url": "https://learn.microsoft.com/azure/storage/queues/storage-queues-introduction"
   },
   {
     "id": "az000055",
@@ -14018,7 +14408,9 @@
     "_betweenness_centrality": 0.005,
     "_descendant_ratio": 0.28,
     "_prerequisite_ratio": 0.4,
-    "_reachability_ratio": 0.48
+    "_reachability_ratio": 0.48,
+    "title": "File Share",
+    "url": "https://learn.microsoft.com/azure/storage/files/storage-files-introduction"
   },
   {
     "id": "az000056",
@@ -14102,7 +14494,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "Training Dataset",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-create-data-assets"
   },
   {
     "id": "az000057",
@@ -14187,7 +14581,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.52,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.68
+    "_reachability_ratio": 0.68,
+    "title": "Document Corpus",
+    "url": "https://learn.microsoft.com/azure/search/search-what-is-data-import"
   },
   {
     "id": "az000058",
@@ -14269,7 +14665,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.75
+    "_reachability_ratio": 0.75,
+    "title": "Azure SQL Database",
+    "url": "https://learn.microsoft.com/azure/azure-sql/database/sql-database-overview"
   },
   {
     "id": "az000059",
@@ -14347,7 +14745,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.4,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "SQL Table",
+    "url": "https://learn.microsoft.com/sql/relational-databases/tables/tables"
   },
   {
     "id": "az000060",
@@ -14428,7 +14828,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.74
+    "_reachability_ratio": 0.74,
+    "title": "Cosmos DB Container",
+    "url": "https://learn.microsoft.com/azure/cosmos-db/resource-model"
   },
   {
     "id": "az000061",
@@ -14512,7 +14914,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Event Hub",
+    "url": "https://learn.microsoft.com/azure/event-hubs/event-hubs-about"
   },
   {
     "id": "az000062",
@@ -14586,7 +14990,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.38,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.58
+    "_reachability_ratio": 0.58,
+    "title": "Event Stream",
+    "url": "https://learn.microsoft.com/azure/event-hubs/event-hubs-features"
   },
   {
     "id": "az000063",
@@ -14665,7 +15071,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Azure Data Factory Pipeline",
+    "url": "https://learn.microsoft.com/azure/data-factory/introduction"
   },
   {
     "id": "az000064",
@@ -14748,7 +15156,9 @@
     "_betweenness_centrality": 0.022,
     "_descendant_ratio": 0.88,
     "_prerequisite_ratio": 0.75,
-    "_reachability_ratio": 0.92
+    "_reachability_ratio": 0.92,
+    "title": "Azure Kubernetes Service (AKS)",
+    "url": "https://learn.microsoft.com/azure/aks/intro-kubernetes"
   },
   {
     "id": "az000065",
@@ -14826,7 +15236,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.75
+    "_reachability_ratio": 0.75,
+    "title": "AKS Node Pool",
+    "url": "https://learn.microsoft.com/azure/aks/use-multiple-node-pools"
   },
   {
     "id": "az000066",
@@ -14905,7 +15317,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.5,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.68
+    "_reachability_ratio": 0.68,
+    "title": "AKS Deployment",
+    "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
   },
   {
     "id": "az000067",
@@ -14982,7 +15396,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.38,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.58
+    "_reachability_ratio": 0.58,
+    "title": "AKS Service",
+    "url": "https://kubernetes.io/docs/concepts/services-networking/service/"
   },
   {
     "id": "az000068",
@@ -15061,7 +15477,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.82,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.88
+    "_reachability_ratio": 0.88,
+    "title": "Azure Container Apps",
+    "url": "https://learn.microsoft.com/azure/container-apps/overview"
   },
   {
     "id": "az000069",
@@ -15135,7 +15553,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Container Apps Environment",
+    "url": "https://learn.microsoft.com/azure/container-apps/environment"
   },
   {
     "id": "az000070",
@@ -15218,7 +15638,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.48,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.66
+    "_reachability_ratio": 0.66,
+    "title": "Container App",
+    "url": "https://learn.microsoft.com/azure/container-apps/get-started"
   },
   {
     "id": "az000071",
@@ -15302,7 +15724,9 @@
     "_betweenness_centrality": 0.007,
     "_descendant_ratio": 0.32,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.55
+    "_reachability_ratio": 0.55,
+    "title": "Container App Revision",
+    "url": "https://learn.microsoft.com/azure/container-apps/revisions"
   },
   {
     "id": "az000072",
@@ -15380,7 +15804,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.78,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.86
+    "_reachability_ratio": 0.86,
+    "title": "Azure Functions",
+    "url": "https://learn.microsoft.com/azure/azure-functions/functions-overview"
   },
   {
     "id": "az000073",
@@ -15454,7 +15880,9 @@
     "_betweenness_centrality": 0.011,
     "_descendant_ratio": 0.48,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.66
+    "_reachability_ratio": 0.66,
+    "title": "Function App",
+    "url": "https://learn.microsoft.com/azure/azure-functions/functions-app-settings"
   },
   {
     "id": "az000074",
@@ -15530,7 +15958,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.72,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "Azure App Service",
+    "url": "https://learn.microsoft.com/azure/app-service/overview"
   },
   {
     "id": "az000075",
@@ -15602,7 +16032,9 @@
     "_betweenness_centrality": 0.009,
     "_descendant_ratio": 0.38,
     "_prerequisite_ratio": 0.45,
-    "_reachability_ratio": 0.58
+    "_reachability_ratio": 0.58,
+    "title": "App Service Deployment Slot",
+    "url": "https://learn.microsoft.com/azure/app-service/deploy-staging-slots"
   },
   {
     "id": "az000076",
@@ -15692,7 +16124,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.75
+    "_reachability_ratio": 0.75,
+    "title": "Virtual Machine",
+    "url": "https://learn.microsoft.com/azure/virtual-machines/overview"
   },
   {
     "id": "az000077",
@@ -15773,7 +16207,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.82,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.88
+    "_reachability_ratio": 0.88,
+    "title": "Virtual Network (VNet)",
+    "url": "https://learn.microsoft.com/azure/virtual-network/virtual-networks-overview"
   },
   {
     "id": "az000078",
@@ -15859,7 +16295,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.55,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.7
+    "_reachability_ratio": 0.7,
+    "title": "Subnet",
+    "url": "https://learn.microsoft.com/azure/virtual-network/virtual-network-manage-subnet"
   },
   {
     "id": "az000079",
@@ -15943,7 +16381,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.74
+    "_reachability_ratio": 0.74,
+    "title": "Private Endpoint",
+    "url": "https://learn.microsoft.com/azure/private-link/private-endpoint-overview"
   },
   {
     "id": "az000080",
@@ -16016,7 +16456,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.52,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "Network Security Group (NSG)",
+    "url": "https://learn.microsoft.com/azure/virtual-network/network-security-groups-overview"
   },
   {
     "id": "az000081",
@@ -16031,8 +16473,8 @@
     ],
     "from": [
       "az000032",
-      "az000258",
-      "az000247"
+      "az000247",
+      "az000258"
     ],
     "category": "AI; Retrieval-Augmented Generation",
     "definition": "A pipeline that enriches model responses by retrieving relevant external knowledge.",
@@ -16109,7 +16551,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.9,
     "_prerequisite_ratio": 0.8,
-    "_reachability_ratio": 0.92
+    "_reachability_ratio": 0.92,
+    "title": "RAG Pipeline",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/rag-overview"
   },
   {
     "id": "az000082",
@@ -16185,7 +16629,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Retriever",
+    "url": "https://learn.microsoft.com/azure/search/vector-search-overview"
   },
   {
     "id": "az000083",
@@ -16272,7 +16718,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.75,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.85
+    "_reachability_ratio": 0.85,
+    "title": "Embedding Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/embeddings"
   },
   {
     "id": "az000084",
@@ -16348,7 +16796,9 @@
     "_betweenness_centrality": 0.008,
     "_descendant_ratio": 0.4,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.6
+    "_reachability_ratio": 0.6,
+    "title": "Embedding Vector",
+    "url": "https://learn.microsoft.com/azure/cosmos-db/vector-embedding"
   },
   {
     "id": "az000085",
@@ -16426,7 +16876,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.75
+    "_reachability_ratio": 0.75,
+    "title": "Chunking Strategy",
+    "url": "https://learn.microsoft.com/azure/architecture/ai-ml/rag-chunking-strategy"
   },
   {
     "id": "az000086",
@@ -16504,7 +16956,9 @@
     "_betweenness_centrality": 0.01,
     "_descendant_ratio": 0.45,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.65
+    "_reachability_ratio": 0.65,
+    "title": "Reranker",
+    "url": "https://learn.microsoft.com/azure/search/semantic-search-overview"
   },
   {
     "id": "az000087",
@@ -16578,7 +17032,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Hybrid Search",
+    "url": "https://learn.microsoft.com/azure/search/hybrid-search-overview"
   },
   {
     "id": "az000088",
@@ -16683,7 +17139,9 @@
     "_betweenness_centrality": 0.025,
     "_descendant_ratio": 0.9,
     "_prerequisite_ratio": 0.8,
-    "_reachability_ratio": 0.95
+    "_reachability_ratio": 0.95,
+    "title": "Vector Store",
+    "url": "https://learn.microsoft.com/semantic-kernel/ai-orchestration/vector-store-connectors/"
   },
   {
     "id": "az000089",
@@ -16691,7 +17149,9 @@
     "to": [],
     "from": [
       "az000088",
-      "az000184"
+      "az000184",
+      "az000269",
+      "az000283"
     ],
     "category": "AI; Vector Storage",
     "definition": "A vector-enabled search engine supporting hybrid and semantic retrieval.",
@@ -16760,7 +17220,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "Azure AI Search Vector Retrieval",
+    "url": "https://learn.microsoft.com/azure/search/vector-search-overview"
   },
   {
     "id": "az000090",
@@ -16836,7 +17298,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.68,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Cosmos DB Vector Store",
+    "url": "https://learn.microsoft.com/azure/cosmos-db/vector-search"
   },
   {
     "id": "az000091",
@@ -16908,7 +17372,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "PostgreSQL pgvector",
+    "url": "https://learn.microsoft.com/azure/postgresql/single-server/concepts-pgvector"
   },
   {
     "id": "az000092",
@@ -16988,7 +17454,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.75
+    "_reachability_ratio": 0.75,
+    "title": "Redis Vector Store",
+    "url": "https://learn.microsoft.com/semantic-kernel/ai-orchestration/vector-store-connectors/redis"
   },
   {
     "id": "az000093",
@@ -17064,7 +17532,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.52,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "Milvus Vector Store",
+    "url": "https://learn.microsoft.com/semantic-kernel/ai-orchestration/vector-store-connectors/milvus"
   },
   {
     "id": "az000094",
@@ -17144,7 +17614,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Pinecone Vector Store",
+    "url": "https://learn.microsoft.com/semantic-kernel/ai-orchestration/vector-store-connectors/pinecone"
   },
   {
     "id": "az000095",
@@ -17220,7 +17692,9 @@
     "_betweenness_centrality": 0.012,
     "_descendant_ratio": 0.58,
     "_prerequisite_ratio": 0.5,
-    "_reachability_ratio": 0.72
+    "_reachability_ratio": 0.72,
+    "title": "ChromaDB Vector Store",
+    "url": "https://learn.microsoft.com/semantic-kernel/ai-orchestration/vector-store-connectors/chroma"
   },
   {
     "id": "az000096",
@@ -17301,7 +17775,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.85,
     "_prerequisite_ratio": 0.75,
-    "_reachability_ratio": 0.9
+    "_reachability_ratio": 0.9,
+    "title": "Text Embedding Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/embeddings"
   },
   {
     "id": "az000097",
@@ -17382,7 +17858,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.82,
     "_prerequisite_ratio": 0.72,
-    "_reachability_ratio": 0.88
+    "_reachability_ratio": 0.88,
+    "title": "Image Embedding Model",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/model-inference/image-embeddings"
   },
   {
     "id": "az000098",
@@ -17463,7 +17941,9 @@
     "_betweenness_centrality": 0.022,
     "_descendant_ratio": 0.88,
     "_prerequisite_ratio": 0.78,
-    "_reachability_ratio": 0.93
+    "_reachability_ratio": 0.93,
+    "title": "GPT-4o",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/concepts/models"
   },
   {
     "id": "az000099",
@@ -17543,7 +18023,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.8,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.87
+    "_reachability_ratio": 0.87,
+    "title": "Florence Vision Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/computer-vision/overview"
   },
   {
     "id": "az000100",
@@ -17622,7 +18104,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.78,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.86
+    "_reachability_ratio": 0.86,
+    "title": "Phi-3 Vision",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/model-catalog/phi-3-5-vision"
   },
   {
     "id": "az000101",
@@ -17698,7 +18182,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Whisper Speech-to-Text",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/speech"
   },
   {
     "id": "az000102",
@@ -17774,7 +18260,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.63,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.77
+    "_reachability_ratio": 0.77,
+    "title": "Azure Speech Text-to-Speech",
+    "url": "https://learn.microsoft.com/azure/ai-services/speech-service/overview"
   },
   {
     "id": "az000103",
@@ -17858,7 +18346,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.75,
     "_prerequisite_ratio": 0.68,
-    "_reachability_ratio": 0.85
+    "_reachability_ratio": 0.85,
+    "title": "Phi-3 Code Model",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/model-catalog/phi-3"
   },
   {
     "id": "az000104",
@@ -17934,7 +18424,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "OCR Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/document-intelligence/overview"
   },
   {
     "id": "az000105",
@@ -18013,7 +18505,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.84
+    "_reachability_ratio": 0.84,
+    "title": "Natural Language Understanding Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/language-service/overview"
   },
   {
     "id": "az000106",
@@ -18096,7 +18590,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.68,
     "_prerequisite_ratio": 0.62,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "Summarization Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/language-service/summarization/overview"
   },
   {
     "id": "az000107",
@@ -18175,7 +18671,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.66,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Translation Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/translator/overview"
   },
   {
     "id": "az000108",
@@ -18254,7 +18752,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.64,
     "_prerequisite_ratio": 0.58,
-    "_reachability_ratio": 0.79
+    "_reachability_ratio": 0.79,
+    "title": "Sentiment Analysis Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/language-service/sentiment-opinion-mining/overview"
   },
   {
     "id": "az000109",
@@ -18333,7 +18833,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.57,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "Named Entity Recognition Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/language-service/named-entity-recognition/overview"
   },
   {
     "id": "az000110",
@@ -18408,7 +18910,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.56,
-    "_reachability_ratio": 0.77
+    "_reachability_ratio": 0.77,
+    "title": "Key Phrase Extraction Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/language-service/key-phrase-extraction/overview"
   },
   {
     "id": "az000111",
@@ -18488,7 +18992,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.82,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.88
+    "_reachability_ratio": 0.88,
+    "title": "Prompt Evaluation",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/evaluate-prompts"
   },
   {
     "id": "az000112",
@@ -18497,7 +19003,8 @@
       "az000113"
     ],
     "from": [
-      "az000111"
+      "az000111",
+      "az000292"
     ],
     "category": "AI; Evaluation",
     "definition": "A process for measuring model performance using quantitative and qualitative metrics.",
@@ -18566,7 +19073,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.78,
     "_prerequisite_ratio": 0.68,
-    "_reachability_ratio": 0.86
+    "_reachability_ratio": 0.86,
+    "title": "Model Evaluation",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/evaluate-models"
   },
   {
     "id": "az000113",
@@ -18581,7 +19090,12 @@
       "az000111",
       "az000112",
       "az000119",
-      "az000259"
+      "az000259",
+      "az000292",
+      "az000294",
+      "az000295",
+      "az000296",
+      "az000297"
     ],
     "category": "AI; Safety",
     "definition": "An evaluation process that measures whether model outputs comply with safety and ethical guidelines.",
@@ -18646,7 +19160,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.75,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.84
+    "_reachability_ratio": 0.84,
+    "title": "Safety Evaluation",
+    "url": "https://learn.microsoft.com/azure/ai-studio/concepts/safety"
   },
   {
     "id": "az000114",
@@ -18725,7 +19241,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.72,
     "_prerequisite_ratio": 0.62,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "Red Teaming Evaluation",
+    "url": "https://learn.microsoft.com/azure/ai-studio/concepts/red-teaming"
   },
   {
     "id": "az000115",
@@ -18735,7 +19253,8 @@
     ],
     "from": [
       "az000113",
-      "az000120"
+      "az000120",
+      "az000294"
     ],
     "category": "AI; Safety",
     "definition": "Automated filters that detect and block harmful or unsafe content.",
@@ -18800,7 +19319,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Content Safety Filters",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/overview"
   },
   {
     "id": "az000116",
@@ -18874,7 +19395,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.58,
-    "_reachability_ratio": 0.78
+    "_reachability_ratio": 0.78,
+    "title": "AI Red Teaming Agent",
+    "url": "https://learn.microsoft.com/microsoft-foundry/evaluate/ai-red-teaming"
   },
   {
     "id": "az000117",
@@ -18951,7 +19474,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.6,
     "_prerequisite_ratio": 0.55,
-    "_reachability_ratio": 0.76
+    "_reachability_ratio": 0.76,
+    "title": "PyRIT",
+    "url": "https://github.com/microsoft/pyrit"
   },
   {
     "id": "az000118",
@@ -19027,7 +19552,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.62,
     "_prerequisite_ratio": 0.56,
-    "_reachability_ratio": 0.77
+    "_reachability_ratio": 0.77,
+    "title": "Content Moderation",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/how-to/text-moderation"
   },
   {
     "id": "az000119",
@@ -19106,7 +19633,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.68,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Safety Evaluation Dataset",
+    "url": "https://learn.microsoft.com/azure/databricks/mlflow/evaluation"
   },
   {
     "id": "az000120",
@@ -19189,7 +19718,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.66,
     "_prerequisite_ratio": 0.58,
-    "_reachability_ratio": 0.79
+    "_reachability_ratio": 0.79,
+    "title": "Safety Configuration",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/quickstart-portal"
   },
   {
     "id": "az000121",
@@ -19272,7 +19803,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.82,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.88
+    "_reachability_ratio": 0.88,
+    "title": "System Prompt",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/system-message"
   },
   {
     "id": "az000122",
@@ -19350,7 +19883,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.78,
     "_prerequisite_ratio": 0.68,
-    "_reachability_ratio": 0.86
+    "_reachability_ratio": 0.86,
+    "title": "User Prompt",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/completions"
   },
   {
     "id": "az000123",
@@ -19419,7 +19954,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.75,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.84
+    "_reachability_ratio": 0.84,
+    "title": "Assistant Prompt",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/assistant"
   },
   {
     "id": "az000124",
@@ -19498,7 +20035,9 @@
     "_betweenness_centrality": 0.019,
     "_descendant_ratio": 0.8,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.87
+    "_reachability_ratio": 0.87,
+    "title": "Prompt Flow Data Connection",
+    "url": "https://learn.microsoft.com/azure/machine-learning/prompt-flow/how-to-connect-data"
   },
   {
     "id": "az000125",
@@ -19570,7 +20109,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.76,
     "_prerequisite_ratio": 0.67,
-    "_reachability_ratio": 0.85
+    "_reachability_ratio": 0.85,
+    "title": "Prompt Flow Evaluation Component",
+    "url": "https://learn.microsoft.com/azure/machine-learning/prompt-flow/how-to-evaluate-prompts"
   },
   {
     "id": "az000126",
@@ -19650,7 +20191,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.78,
     "_prerequisite_ratio": 0.68,
-    "_reachability_ratio": 0.86
+    "_reachability_ratio": 0.86,
+    "title": "Agent Memory (Vector Memory)",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/agents/memory#vector-memory"
   },
   {
     "id": "az000127",
@@ -19723,7 +20266,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.75,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.84
+    "_reachability_ratio": 0.84,
+    "title": "Agent Memory (Episodic Memory)",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/agents/memory#conversation-history"
   },
   {
     "id": "az000128",
@@ -19796,7 +20341,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.74,
     "_prerequisite_ratio": 0.64,
-    "_reachability_ratio": 0.83
+    "_reachability_ratio": 0.83,
+    "title": "Agent Memory (Tool Memory)",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/agents/memory"
   },
   {
     "id": "az000129",
@@ -19876,7 +20423,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.82,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.88
+    "_reachability_ratio": 0.88,
+    "title": "Agent Planning",
+    "url": "https://learn.microsoft.com/dotnet/api/microsoft.agents.core.workflows"
   },
   {
     "id": "az000130",
@@ -19952,7 +20501,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.78,
     "_prerequisite_ratio": 0.68,
-    "_reachability_ratio": 0.86
+    "_reachability_ratio": 0.86,
+    "title": "Tool Calling",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/agents/tools"
   },
   {
     "id": "az000131",
@@ -20024,7 +20575,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.75,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.84
+    "_reachability_ratio": 0.84,
+    "title": "Function Calling",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/function-calling"
   },
   {
     "id": "az000132",
@@ -20104,7 +20657,9 @@
     "_betweenness_centrality": 0.019,
     "_descendant_ratio": 0.8,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.87
+    "_reachability_ratio": 0.87,
+    "title": "Agent Tool",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/agents/tools"
   },
   {
     "id": "az000133",
@@ -20179,7 +20734,9 @@
     "_betweenness_centrality": 0.021,
     "_descendant_ratio": 0.83,
     "_prerequisite_ratio": 0.72,
-    "_reachability_ratio": 0.89
+    "_reachability_ratio": 0.89,
+    "title": "Agent Graph",
+    "url": "https://learn.microsoft.com/dotnet/api/microsoft.agents.core.workflows"
   },
   {
     "id": "az000134",
@@ -20255,7 +20812,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.78,
     "_prerequisite_ratio": 0.68,
-    "_reachability_ratio": 0.86
+    "_reachability_ratio": 0.86,
+    "title": "Agent Role",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/agents/conversation"
   },
   {
     "id": "az000135",
@@ -20266,9 +20825,10 @@
     ],
     "from": [
       "az000171",
+      "az000229",
       "az000249",
       "az000258",
-      "az000229"
+      "az000274"
     ],
     "category": "AI; Agents",
     "definition": "The runtime system that executes agent workflows, tool calls, and planning steps.",
@@ -20337,7 +20897,9 @@
     "_betweenness_centrality": 0.022,
     "_descendant_ratio": 0.85,
     "_prerequisite_ratio": 0.75,
-    "_reachability_ratio": 0.9
+    "_reachability_ratio": 0.9,
+    "title": "Agent Execution Engine",
+    "url": "https://learn.microsoft.com/dotnet/api/microsoft.agents.core.execution"
   },
   {
     "id": "az000136",
@@ -20417,7 +20979,9 @@
     "_betweenness_centrality": 0.02,
     "_descendant_ratio": 0.82,
     "_prerequisite_ratio": 0.7,
-    "_reachability_ratio": 0.88
+    "_reachability_ratio": 0.88,
+    "title": "Fine-Tuning Job",
+    "url": "https://learn.microsoft.com/azure/ai-studio/how-to/fine-tune"
   },
   {
     "id": "az000137",
@@ -20495,7 +21059,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.78,
     "_prerequisite_ratio": 0.68,
-    "_reachability_ratio": 0.86
+    "_reachability_ratio": 0.86,
+    "title": "LoRA Adapter",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-fine-tuning#lora"
   },
   {
     "id": "az000138",
@@ -20575,7 +21141,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.75,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.84
+    "_reachability_ratio": 0.84,
+    "title": "Fine-Tuned Model",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-fine-tuning"
   },
   {
     "id": "az000139",
@@ -20651,7 +21219,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.72,
     "_prerequisite_ratio": 0.62,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "DPO (Direct Preference Optimization)",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/dpo"
   },
   {
     "id": "az000140",
@@ -20732,7 +21302,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Reward Model",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-rlhf"
   },
   {
     "id": "az000141",
@@ -20807,7 +21379,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.68,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Preference Dataset",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-preference-dataset"
   },
   {
     "id": "az000142",
@@ -20888,7 +21462,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.76,
     "_prerequisite_ratio": 0.67,
-    "_reachability_ratio": 0.85
+    "_reachability_ratio": 0.85,
+    "title": "Alignment Pipeline",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-rlhf"
   },
   {
     "id": "az000143",
@@ -20962,7 +21538,9 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.71,
     "_prerequisite_ratio": 0.61,
-    "_reachability_ratio": 0.81
+    "_reachability_ratio": 0.81,
+    "title": "RLHF (Reinforcement Learning from Human Feedback)",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-rlhf"
   },
   {
     "id": "az000144",
@@ -21042,7 +21620,9 @@
     "_betweenness_centrality": 0.014,
     "_descendant_ratio": 0.69,
     "_prerequisite_ratio": 0.59,
-    "_reachability_ratio": 0.79
+    "_reachability_ratio": 0.79,
+    "title": "Safety-Aligned Model",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/overview"
   },
   {
     "id": "az000145",
@@ -21121,7 +21701,9 @@
     "_betweenness_centrality": 0.013,
     "_descendant_ratio": 0.65,
     "_prerequisite_ratio": 0.58,
-    "_reachability_ratio": 0.77
+    "_reachability_ratio": 0.77,
+    "title": "Alignment Evaluation",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/evaluate/generative-ai-evaluation"
   },
   {
     "id": "az000146",
@@ -21197,7 +21779,9 @@
     "_betweenness_centrality": 0.018,
     "_descendant_ratio": 0.76,
     "_prerequisite_ratio": 0.67,
-    "_reachability_ratio": 0.85
+    "_reachability_ratio": 0.85,
+    "title": "Training Dataset",
+    "url": "https://learn.microsoft.com/azure/machine-learning/concept-data"
   },
   {
     "id": "az000147",
@@ -21273,7 +21857,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.74,
     "_prerequisite_ratio": 0.64,
-    "_reachability_ratio": 0.83
+    "_reachability_ratio": 0.83,
+    "title": "Evaluation Dataset",
+    "url": "https://learn.microsoft.com/azure/machine-learning/how-to-evaluate-model"
   },
   {
     "id": "az000148",
@@ -21349,7 +21935,9 @@
     "_betweenness_centrality": 0.017,
     "_descendant_ratio": 0.75,
     "_prerequisite_ratio": 0.65,
-    "_reachability_ratio": 0.84
+    "_reachability_ratio": 0.84,
+    "title": "Alignment Configuration",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/how-to/dpo"
   },
   {
     "id": "az000149",
@@ -21429,7 +22017,9 @@
     "_betweenness_centrality": 0.016,
     "_descendant_ratio": 0.72,
     "_prerequisite_ratio": 0.62,
-    "_reachability_ratio": 0.82
+    "_reachability_ratio": 0.82,
+    "title": "Safety Constraint",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/overview"
   },
   {
     "id": "az000150",
@@ -21505,6 +22095,1164 @@
     "_betweenness_centrality": 0.015,
     "_descendant_ratio": 0.7,
     "_prerequisite_ratio": 0.6,
-    "_reachability_ratio": 0.8
+    "_reachability_ratio": 0.8,
+    "title": "Alignment Report",
+    "url": "https://learn.microsoft.com/azure/ai-foundry/evaluate/generative-ai-evaluation"
+  },
+  {
+    "id": "az000263",
+    "label": "Microsoft Copilot Studio",
+    "to": [
+      "az000264",
+      "az000266",
+      "az000294"
+    ],
+    "from": [
+      "az000001"
+    ],
+    "category": "AI Platform; Copilot Studio",
+    "definition": "Microsoft Copilot Studio is Microsoft’s platform for building, publishing, and operating conversational and autonomous agents using topics, actions, knowledge, connectors, and generative orchestration.",
+    "long_description": "Microsoft Copilot Studio provides a low-code environment for creating agents that can reason over knowledge, invoke tools and flows, orchestrate topics and other agents, and operate across Microsoft and external business systems.",
+    "docs_links": [
+      {
+        "title": "Microsoft Copilot Studio",
+        "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/"
+      }
+    ],
+    "title": "Microsoft Copilot Studio",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/",
+    "_depth": 1,
+    "_pagerank": 0.001002,
+    "_degree_centrality": 0.013245,
+    "_betweenness_centrality": 0.000187,
+    "_descendant_ratio": 0.9172,
+    "_prerequisite_ratio": 0.0033,
+    "_reachability_ratio": 0.9175
+  },
+  {
+    "id": "az000264",
+    "label": "Copilot Studio Agent",
+    "to": [
+      "az000171",
+      "az000174",
+      "az000265",
+      "az000267",
+      "az000268",
+      "az000269",
+      "az000270",
+      "az000271",
+      "az000272",
+      "az000292"
+    ],
+    "from": [
+      "az000263",
+      "az000271"
+    ],
+    "category": "AI Agents; Copilot Studio",
+    "definition": "An agent created and managed in Microsoft Copilot Studio.",
+    "long_description": "A Copilot Studio agent combines instructions, topics, actions, knowledge sources, connectors, and optional generative orchestration to answer questions and perform business actions.",
+    "docs_links": [
+      {
+        "title": "Create and manage agents in Copilot Studio",
+        "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio"
+      }
+    ],
+    "title": "Create and manage agents in Copilot Studio",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio",
+    "_depth": 2,
+    "_pagerank": 0.001562,
+    "_degree_centrality": 0.039735,
+    "_betweenness_centrality": 0.004637,
+    "_descendant_ratio": 0.9106,
+    "_prerequisite_ratio": 0.0232,
+    "_reachability_ratio": 0.9109
+  },
+  {
+    "id": "az000265",
+    "label": "Copilot Studio Topic",
+    "to": [
+      "az000267",
+      "az000268",
+      "az000269"
+    ],
+    "from": [
+      "az000264",
+      "az000267"
+    ],
+    "category": "AI Agents; Copilot Studio",
+    "definition": "A reusable conversational unit in Copilot Studio that defines a dialogue, trigger, inputs, outputs, and actions.",
+    "long_description": "Topics encapsulate specific conversational or business logic. Generative orchestration can select topics as steps in an agent plan, and topics can invoke actions and knowledge.",
+    "docs_links": [
+      {
+        "title": "Manage topics in Copilot Studio",
+        "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-create-edit-topics"
+      }
+    ],
+    "title": "Manage topics in Copilot Studio",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-create-edit-topics",
+    "_depth": 3,
+    "_pagerank": 0.001401,
+    "_degree_centrality": 0.016556,
+    "_betweenness_centrality": 0.0,
+    "_descendant_ratio": 0.9106,
+    "_prerequisite_ratio": 0.0232,
+    "_reachability_ratio": 0.9109
+  },
+  {
+    "id": "az000266",
+    "label": "Copilot Studio Agent Flow",
+    "to": [
+      "az000174",
+      "az000186",
+      "az000267",
+      "az000268"
+    ],
+    "from": [
+      "az000263"
+    ],
+    "category": "AI Agents; Copilot Studio; Workflow",
+    "definition": "An agent flow in Copilot Studio that automates a business process and can be invoked by an agent.",
+    "long_description": "Agent flows provide workflow automation that can be exposed as tools to agents. They can contain triggers, actions, connectors, and real-time responses for agent-invoked automation.",
+    "docs_links": [
+      {
+        "title": "Add an agent flow as a tool to an agent",
+        "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/flow-agent"
+      }
+    ],
+    "title": "Add an agent flow as a tool to an agent",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/flow-agent",
+    "_depth": 2,
+    "_pagerank": 0.001264,
+    "_degree_centrality": 0.016556,
+    "_betweenness_centrality": 0.00027,
+    "_descendant_ratio": 0.9139,
+    "_prerequisite_ratio": 0.0066,
+    "_reachability_ratio": 0.9142
+  },
+  {
+    "id": "az000267",
+    "label": "Copilot Studio Generative Orchestration",
+    "to": [
+      "az000171",
+      "az000174",
+      "az000265",
+      "az000268",
+      "az000269",
+      "az000271",
+      "az000272"
+    ],
+    "from": [
+      "az000264",
+      "az000265",
+      "az000266",
+      "az000271",
+      "az000272"
+    ],
+    "category": "AI Agents; Copilot Studio; Orchestration",
+    "definition": "The LLM-driven planning and orchestration layer that selects and chains topics, tools, knowledge sources, and agents in Copilot Studio.",
+    "long_description": "Generative orchestration interprets an input or event, creates a plan, selects appropriate capabilities, fills inputs from context, executes multistep workflows, and applies policy and safety constraints.",
+    "docs_links": [
+      {
+        "title": "Apply generative orchestration capabilities",
+        "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/generative-orchestration"
+      }
+    ],
+    "title": "Apply generative orchestration capabilities",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/generative-orchestration",
+    "_depth": 3,
+    "_pagerank": 0.002374,
+    "_degree_centrality": 0.039735,
+    "_betweenness_centrality": 0.005733,
+    "_descendant_ratio": 0.9106,
+    "_prerequisite_ratio": 0.0232,
+    "_reachability_ratio": 0.9109
+  },
+  {
+    "id": "az000268",
+    "label": "Copilot Studio Action",
+    "to": [
+      "az000185",
+      "az000186",
+      "az000270"
+    ],
+    "from": [
+      "az000264",
+      "az000265",
+      "az000266",
+      "az000267",
+      "az000270",
+      "az000272"
+    ],
+    "category": "AI Agents; Copilot Studio; Tools",
+    "definition": "An executable capability that a Copilot Studio agent can invoke to perform an operation or access an external system.",
+    "long_description": "Actions expose callable business capabilities to agents and may invoke APIs, connectors, Power Automate flows, or other automation mechanisms.",
+    "docs_links": [
+      {
+        "title": "Explore AI capabilities in Copilot Studio",
+        "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/ai-capabilities"
+      }
+    ],
+    "title": "Explore AI capabilities in Copilot Studio",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/ai-capabilities",
+    "_depth": 3,
+    "_pagerank": 0.003099,
+    "_degree_centrality": 0.029801,
+    "_betweenness_centrality": 0.001574,
+    "_descendant_ratio": 0.894,
+    "_prerequisite_ratio": 0.0331,
+    "_reachability_ratio": 0.8944
+  },
+  {
+    "id": "az000269",
+    "label": "Copilot Studio Knowledge Source",
+    "to": [
+      "az000089",
+      "az000177",
+      "az000260a",
+      "az000270"
+    ],
+    "from": [
+      "az000264",
+      "az000265",
+      "az000267",
+      "az000270",
+      "az000272"
+    ],
+    "category": "AI; Copilot Studio; RAG",
+    "definition": "A configured source of enterprise or external information used to ground Copilot Studio agent responses.",
+    "long_description": "Copilot Studio knowledge sources can include websites, SharePoint, Dataverse, Azure AI Search, files, connectors, and other enterprise data sources. They provide evidence and context for generated responses.",
+    "docs_links": [
+      {
+        "title": "Knowledge sources summary",
+        "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio"
+      }
+    ],
+    "title": "Knowledge sources summary",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+    "_depth": 3,
+    "_pagerank": 0.00283,
+    "_degree_centrality": 0.029801,
+    "_betweenness_centrality": 0.008165,
+    "_descendant_ratio": 0.894,
+    "_prerequisite_ratio": 0.0331,
+    "_reachability_ratio": 0.8944
+  },
+  {
+    "id": "az000270",
+    "label": "Copilot Studio Connector",
+    "to": [
+      "az000185",
+      "az000268",
+      "az000269"
+    ],
+    "from": [
+      "az000264",
+      "az000268",
+      "az000269"
+    ],
+    "category": "Integration; Copilot Studio",
+    "definition": "A connector integration that allows Copilot Studio agents to access data or operations in an external service.",
+    "long_description": "Connectors expose enterprise data or actions to Copilot Studio. Copilot connectors can also index external enterprise data into Microsoft Graph for permission-aware grounding.",
+    "docs_links": [
+      {
+        "title": "Add Copilot connectors as a knowledge source",
+        "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-connectors"
+      }
+    ],
+    "title": "Add Copilot connectors as a knowledge source",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-connectors",
+    "_depth": 3,
+    "_pagerank": 0.002592,
+    "_degree_centrality": 0.019868,
+    "_betweenness_centrality": 0.001065,
+    "_descendant_ratio": 0.894,
+    "_prerequisite_ratio": 0.0331,
+    "_reachability_ratio": 0.8944
+  },
+  {
+    "id": "az000271",
+    "label": "Copilot Studio Child Agent",
+    "to": [
+      "az000174",
+      "az000250",
+      "az000264",
+      "az000267"
+    ],
+    "from": [
+      "az000264",
+      "az000267"
+    ],
+    "category": "AI Agents; Copilot Studio; Multi-Agent",
+    "definition": "A specialized Copilot Studio agent that can be delegated work by another agent.",
+    "long_description": "Child agents allow complex Copilot Studio solutions to decompose responsibilities into specialized agents that can be selected and invoked by orchestration.",
+    "docs_links": [
+      {
+        "title": "Apply generative orchestration capabilities",
+        "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/generative-orchestration"
+      }
+    ],
+    "title": "Apply generative orchestration capabilities",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/generative-orchestration",
+    "_depth": 3,
+    "_pagerank": 0.001401,
+    "_degree_centrality": 0.019868,
+    "_betweenness_centrality": 0.002741,
+    "_descendant_ratio": 0.9106,
+    "_prerequisite_ratio": 0.0232,
+    "_reachability_ratio": 0.9109
+  },
+  {
+    "id": "az000272",
+    "label": "Copilot Studio Autonomous Agent",
+    "to": [
+      "az000174",
+      "az000267",
+      "az000268",
+      "az000269"
+    ],
+    "from": [
+      "az000264",
+      "az000267"
+    ],
+    "category": "AI Agents; Copilot Studio; Autonomous AI",
+    "definition": "A Copilot Studio agent configured to react to events and execute tasks autonomously.",
+    "long_description": "Autonomous agents can use event triggers and generative orchestration to select topics, tools, agents, and knowledge in response to changes in connected systems.",
+    "docs_links": [
+      {
+        "title": "FAQ for generative orchestration",
+        "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/faqs-generative-orchestration"
+      }
+    ],
+    "title": "FAQ for generative orchestration",
+    "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/faqs-generative-orchestration",
+    "_depth": 3,
+    "_pagerank": 0.001401,
+    "_degree_centrality": 0.019868,
+    "_betweenness_centrality": 0.0,
+    "_descendant_ratio": 0.9106,
+    "_prerequisite_ratio": 0.0232,
+    "_reachability_ratio": 0.9109
+  },
+  {
+    "id": "az000273",
+    "label": "Microsoft Foundry Agent Service",
+    "to": [
+      "az000274",
+      "az000275",
+      "az000276",
+      "az000277",
+      "az000280",
+      "az000281",
+      "az000289",
+      "az000292",
+      "az000293",
+      "az000294"
+    ],
+    "from": [
+      "az000256",
+      "az000258"
+    ],
+    "category": "AI Platform; Microsoft Foundry; AI Agents",
+    "definition": "The managed Microsoft Foundry service for building, deploying, operating, observing, evaluating, and optimizing AI agents.",
+    "long_description": "Foundry Agent Service provides agent runtime infrastructure, toolboxes, model integration, tracing, evaluations, optimization, identity and security, versioning, stable endpoints, and publishing.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 2,
+    "_pagerank": 0.001192,
+    "_degree_centrality": 0.039735,
+    "_betweenness_centrality": 0.041755,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000274",
+    "label": "Foundry Agent Runtime",
+    "to": [
+      "az000135",
+      "az000275",
+      "az000276",
+      "az000277",
+      "az000280",
+      "az000289",
+      "az000292"
+    ],
+    "from": [
+      "az000273",
+      "az000275",
+      "az000276",
+      "az000277",
+      "az000278"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Runtime",
+    "definition": "The managed runtime that hosts and scales Foundry prompt and hosted agents and manages conversations, tool calls, and lifecycle.",
+    "long_description": "Foundry Agent Runtime provides the execution substrate for managed agents, including lifecycle management, conversation handling, tool invocation, scaling, and runtime security controls.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 3,
+    "_pagerank": 0.002282,
+    "_degree_centrality": 0.039735,
+    "_betweenness_centrality": 0.004243,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000275",
+    "label": "Foundry Prompt Agent",
+    "to": [
+      "az000032",
+      "az000274",
+      "az000280",
+      "az000281",
+      "az000289",
+      "az000292"
+    ],
+    "from": [
+      "az000273",
+      "az000274",
+      "az000293"
+    ],
+    "category": "AI Agents; Microsoft Foundry",
+    "definition": "A Foundry Agent Service agent whose behavior is primarily defined by instructions, model selection, tools, and configuration.",
+    "long_description": "Prompt agents are managed agents whose orchestration behavior is configured through prompts and tools and executed by Foundry Agent Runtime.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 3,
+    "_pagerank": 0.001799,
+    "_degree_centrality": 0.029801,
+    "_betweenness_centrality": 0.011582,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000276",
+    "label": "Foundry Workflow Agent",
+    "to": [
+      "az000187",
+      "az000274",
+      "az000280",
+      "az000281",
+      "az000289",
+      "az000292"
+    ],
+    "from": [
+      "az000273",
+      "az000274",
+      "az000293"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Workflow",
+    "definition": "A Foundry agent that represents or participates in a coordinated workflow containing agents or other generative AI operations.",
+    "long_description": "Workflow agents provide structured orchestration for multistep agentic processes. Foundry tracing models workflow invocation as a first-class operation.",
+    "docs_links": [
+      {
+        "title": "Agent tracing overview",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/concepts/trace-agent-concept"
+      }
+    ],
+    "title": "Agent tracing overview",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/concepts/trace-agent-concept",
+    "_depth": 3,
+    "_pagerank": 0.001799,
+    "_degree_centrality": 0.029801,
+    "_betweenness_centrality": 0.005162,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000277",
+    "label": "Foundry Hosted Agent",
+    "to": [
+      "az000274",
+      "az000278",
+      "az000280",
+      "az000281",
+      "az000289",
+      "az000292"
+    ],
+    "from": [
+      "az000273",
+      "az000274"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Runtime",
+    "definition": "A custom-code agent deployed and operated as a managed hosted agent in Foundry Agent Service.",
+    "long_description": "Hosted agents package custom agent code and its dependencies for managed deployment, scaling, security, versioning, observability, and access to Foundry-managed tools.",
+    "docs_links": [
+      {
+        "title": "Hosted agents in Foundry Agent Service",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents"
+      }
+    ],
+    "title": "Hosted agents in Foundry Agent Service",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents",
+    "_depth": 3,
+    "_pagerank": 0.001358,
+    "_degree_centrality": 0.02649,
+    "_betweenness_centrality": 0.002036,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000278",
+    "label": "Hosted Agent Container",
+    "to": [
+      "az000015",
+      "az000274"
+    ],
+    "from": [
+      "az000277"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Containers",
+    "definition": "The containerized runtime package used to deploy a Foundry Hosted Agent.",
+    "long_description": "Hosted agents use containerization to package custom agent code and runtime dependencies while Foundry manages deployment, scaling, observability, and version lifecycle.",
+    "docs_links": [
+      {
+        "title": "Hosted agents in Foundry Agent Service",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents"
+      }
+    ],
+    "title": "Hosted agents in Foundry Agent Service",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents",
+    "_depth": 4,
+    "_pagerank": 0.001172,
+    "_degree_centrality": 0.009934,
+    "_betweenness_centrality": 0.000152,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000279",
+    "label": "Foundry Agent Version",
+    "to": [
+      "az000280",
+      "az000289",
+      "az000292"
+    ],
+    "from": [
+      "az000293"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Lifecycle",
+    "definition": "A versioned configuration or deployment of a Foundry agent used for controlled publishing and rollback.",
+    "long_description": "Foundry Agent Service supports versioned agents and stable endpoints so a published endpoint can point to a specific agent version.",
+    "docs_links": [
+      {
+        "title": "Hosted agents in Foundry Agent Service",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents"
+      }
+    ],
+    "title": "Hosted agents in Foundry Agent Service",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents",
+    "_depth": 4,
+    "_pagerank": 0.001421,
+    "_degree_centrality": 0.013245,
+    "_betweenness_centrality": 0.003022,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000280",
+    "label": "Foundry Agent Endpoint",
+    "to": [
+      "az000002",
+      "az000006",
+      "az000289"
+    ],
+    "from": [
+      "az000273",
+      "az000274",
+      "az000275",
+      "az000276",
+      "az000277",
+      "az000279"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Endpoint",
+    "definition": "A stable endpoint through which a deployed Foundry agent version can be invoked.",
+    "long_description": "Agent endpoints provide a stable invocation surface for published agents and route requests to the configured agent version.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 3,
+    "_pagerank": 0.002463,
+    "_degree_centrality": 0.029801,
+    "_betweenness_centrality": 0.021619,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000281",
+    "label": "Foundry Agent Toolbox",
+    "to": [
+      "az000033",
+      "az000178",
+      "az000282",
+      "az000283",
+      "az000284",
+      "az000285",
+      "az000286"
+    ],
+    "from": [
+      "az000273",
+      "az000275",
+      "az000276",
+      "az000277"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Tools",
+    "definition": "A reusable managed collection of tools that can be attached to Foundry agents.",
+    "long_description": "Foundry toolboxes curate tools such as web search, file search, code interpreter, OpenAPI, MCP, A2A, and custom functions behind managed authentication, governance, and versioning.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 3,
+    "_pagerank": 0.001784,
+    "_degree_centrality": 0.036424,
+    "_betweenness_centrality": 0.015349,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000282",
+    "label": "Foundry Web Search Tool",
+    "to": [
+      "az000021",
+      "az000289"
+    ],
+    "from": [
+      "az000281"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Tools",
+    "definition": "A managed Foundry tool that enables agents to retrieve information from web search services.",
+    "long_description": "Web Search provides agents with externally retrieved information for grounded responses and task completion.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 4,
+    "_pagerank": 0.001196,
+    "_degree_centrality": 0.009934,
+    "_betweenness_centrality": 0.000258,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000283",
+    "label": "Foundry File Search Tool",
+    "to": [
+      "az000041",
+      "az000089",
+      "az000289"
+    ],
+    "from": [
+      "az000281"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Tools; RAG",
+    "definition": "A managed Foundry tool for searching indexed files and retrieving relevant content for agent responses.",
+    "long_description": "File Search gives agents retrieval access to indexed files as a grounding and knowledge capability.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 4,
+    "_pagerank": 0.001196,
+    "_degree_centrality": 0.013245,
+    "_betweenness_centrality": 0.001336,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000284",
+    "label": "Foundry OpenAPI Tool",
+    "to": [
+      "az000002",
+      "az000185",
+      "az000289"
+    ],
+    "from": [
+      "az000281"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Tools; API",
+    "definition": "A Foundry tool that exposes operations described by an OpenAPI specification to an agent.",
+    "long_description": "OpenAPI tools let agents invoke external APIs through a typed contract, enabling controlled integration with enterprise and third-party services.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 4,
+    "_pagerank": 0.001196,
+    "_degree_centrality": 0.013245,
+    "_betweenness_centrality": 0.000952,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000285",
+    "label": "Foundry MCP Tool",
+    "to": [
+      "az000002",
+      "az000287",
+      "az000289"
+    ],
+    "from": [
+      "az000281"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Tools; MCP",
+    "definition": "A Foundry tool that connects an agent to a remote Model Context Protocol server.",
+    "long_description": "MCP tools expose capabilities and resources from MCP servers to Foundry agents with configurable authentication, permissions, and tool selection.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 4,
+    "_pagerank": 0.001196,
+    "_degree_centrality": 0.013245,
+    "_betweenness_centrality": 0.002844,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000286",
+    "label": "Foundry A2A Tool",
+    "to": [
+      "az000249",
+      "az000288",
+      "az000289"
+    ],
+    "from": [
+      "az000281"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Tools; Multi-Agent",
+    "definition": "A Foundry tool that enables agent-to-agent interaction using the Agent2Agent protocol.",
+    "long_description": "A2A tools allow a Foundry agent to communicate with external agents as part of multi-agent architectures and coordinated task execution.",
+    "docs_links": [
+      {
+        "title": "Hosted agents in Foundry Agent Service",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents"
+      }
+    ],
+    "title": "Hosted agents in Foundry Agent Service",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents",
+    "_depth": 4,
+    "_pagerank": 0.001196,
+    "_degree_centrality": 0.013245,
+    "_betweenness_centrality": 0.002398,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000287",
+    "label": "MCP Server",
+    "to": [
+      "az000002",
+      "az000006"
+    ],
+    "from": [
+      "az000285"
+    ],
+    "category": "AI Agents; Tools; MCP",
+    "definition": "A server that exposes tools or resources through the Model Context Protocol.",
+    "long_description": "An MCP server provides a standardized interface through which AI agents can discover and invoke external capabilities and resources.",
+    "docs_links": [
+      {
+        "title": "Connect to MCP Server Endpoints for agents",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/model-context-protocol"
+      }
+    ],
+    "title": "Connect to MCP Server Endpoints for agents",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/model-context-protocol",
+    "_depth": 5,
+    "_pagerank": 0.001319,
+    "_degree_centrality": 0.009934,
+    "_betweenness_centrality": 0.000405,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000288",
+    "label": "A2A Agent",
+    "to": [
+      "az000174",
+      "az000249"
+    ],
+    "from": [
+      "az000286"
+    ],
+    "category": "AI Agents; Multi-Agent; Protocol",
+    "definition": "An agent endpoint or participant that communicates with other agents through the Agent2Agent protocol.",
+    "long_description": "An A2A agent participates in interoperable multi-agent collaboration by exposing capabilities that another agent can invoke or delegate work to.",
+    "docs_links": [
+      {
+        "title": "Hosted agents in Foundry Agent Service",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents"
+      }
+    ],
+    "title": "Hosted agents in Foundry Agent Service",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents",
+    "_depth": 5,
+    "_pagerank": 0.001319,
+    "_degree_centrality": 0.009934,
+    "_betweenness_centrality": 1.4e-05,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000289",
+    "label": "Foundry Tracing",
+    "to": [
+      "az000174",
+      "az000290",
+      "az000291",
+      "az000292"
+    ],
+    "from": [
+      "az000273",
+      "az000274",
+      "az000275",
+      "az000276",
+      "az000277",
+      "az000279",
+      "az000280",
+      "az000282",
+      "az000283",
+      "az000284",
+      "az000285",
+      "az000286"
+    ],
+    "category": "AI Agents; Microsoft Foundry; Observability",
+    "definition": "The Foundry observability capability that records agent, workflow, model, tool, and memory execution traces.",
+    "long_description": "Foundry tracing provides end-to-end visibility into agent decisions and operations and integrates with OpenTelemetry and Application Insights.",
+    "docs_links": [
+      {
+        "title": "Agent tracing overview",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/concepts/trace-agent-concept"
+      }
+    ],
+    "title": "Agent tracing overview",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/concepts/trace-agent-concept",
+    "_depth": 3,
+    "_pagerank": 0.005026,
+    "_degree_centrality": 0.05298,
+    "_betweenness_centrality": 0.006098,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000290",
+    "label": "OpenTelemetry Trace",
+    "to": [
+      "az000174",
+      "az000292"
+    ],
+    "from": [
+      "az000289"
+    ],
+    "category": "Observability; AI Agents",
+    "definition": "A standardized distributed trace representation used to capture agent and tool execution spans.",
+    "long_description": "OpenTelemetry traces represent model calls, workflow invocations, tool executions, memory operations, and other agent runtime events using interoperable telemetry semantics.",
+    "docs_links": [
+      {
+        "title": "Agent tracing overview",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/concepts/trace-agent-concept"
+      }
+    ],
+    "title": "Agent tracing overview",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/observability/concepts/trace-agent-concept",
+    "_depth": 4,
+    "_pagerank": 0.002048,
+    "_degree_centrality": 0.009934,
+    "_betweenness_centrality": 0.0,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000291",
+    "label": "Application Insights",
+    "to": [
+      "az000174",
+      "az000292"
+    ],
+    "from": [
+      "az000289"
+    ],
+    "category": "Observability; Azure",
+    "definition": "Azure Monitor application performance and telemetry service used by Foundry hosted agents and AI applications.",
+    "long_description": "Application Insights stores and analyzes telemetry including distributed traces, performance data, failures, and agent execution information.",
+    "docs_links": [
+      {
+        "title": "Hosted agents in Foundry Agent Service",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents"
+      }
+    ],
+    "title": "Hosted agents in Foundry Agent Service",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents",
+    "_depth": 4,
+    "_pagerank": 0.002048,
+    "_degree_centrality": 0.009934,
+    "_betweenness_centrality": 0.0,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000292",
+    "label": "Agent Evaluation",
+    "to": [
+      "az000040",
+      "az000112",
+      "az000113",
+      "az000174",
+      "az000293"
+    ],
+    "from": [
+      "az000264",
+      "az000273",
+      "az000274",
+      "az000275",
+      "az000276",
+      "az000277",
+      "az000279",
+      "az000289",
+      "az000290",
+      "az000291",
+      "az000293"
+    ],
+    "category": "AI Agents; Evaluation; Microsoft Foundry",
+    "definition": "An evaluation process that measures the quality, safety, correctness, and behavior of an AI agent.",
+    "long_description": "Agent evaluation uses traces, datasets, metrics, and evaluation runs to detect regressions and assess agent behavior across models, tools, workflows, and versions.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 3,
+    "_pagerank": 0.005846,
+    "_degree_centrality": 0.05298,
+    "_betweenness_centrality": 0.015237,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000293",
+    "label": "Agent Optimizer",
+    "to": [
+      "az000275",
+      "az000276",
+      "az000279",
+      "az000292"
+    ],
+    "from": [
+      "az000273",
+      "az000292"
+    ],
+    "category": "AI Agents; Optimization; Microsoft Foundry",
+    "definition": "A Foundry capability that evaluates agent behavior and automatically proposes or generates improvements to agent configuration.",
+    "long_description": "Agent Optimizer can use evaluation results to improve instructions, skills, tool descriptions, and model selections for supported Foundry agents.",
+    "docs_links": [
+      {
+        "title": "What is Microsoft Foundry Agent Service?",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview"
+      }
+    ],
+    "title": "What is Microsoft Foundry Agent Service?",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview",
+    "_depth": 3,
+    "_pagerank": 0.002075,
+    "_degree_centrality": 0.019868,
+    "_betweenness_centrality": 0.016598,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000294",
+    "label": "Azure AI Content Safety",
+    "to": [
+      "az000113",
+      "az000115",
+      "az000295",
+      "az000296",
+      "az000297"
+    ],
+    "from": [
+      "az000263",
+      "az000273",
+      "az000295",
+      "az000296",
+      "az000297"
+    ],
+    "category": "AI Safety; Azure AI Services",
+    "definition": "A managed Azure AI service for detecting harmful content and protecting generative AI applications.",
+    "long_description": "Azure AI Content Safety provides moderation and specialized generative-AI safeguards including Prompt Shields, groundedness detection, protected material detection, and custom safety categories.",
+    "docs_links": [
+      {
+        "title": "Azure AI Content Safety documentation",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/"
+      }
+    ],
+    "title": "Azure AI Content Safety documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/",
+    "_depth": 2,
+    "_pagerank": 0.002168,
+    "_degree_centrality": 0.033113,
+    "_betweenness_centrality": 0.008841,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000295",
+    "label": "Prompt Shields",
+    "to": [
+      "az000113",
+      "az000174",
+      "az000190",
+      "az000294"
+    ],
+    "from": [
+      "az000294"
+    ],
+    "category": "AI Safety; Azure AI Content Safety; Security",
+    "definition": "A Content Safety capability that detects direct and indirect prompt injection attacks.",
+    "long_description": "Prompt Shields analyzes user prompts and indirect attacks embedded in documents or images to help protect AI applications from instruction manipulation.",
+    "docs_links": [
+      {
+        "title": "Azure AI Content Safety documentation",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/"
+      }
+    ],
+    "title": "Azure AI Content Safety documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/",
+    "_depth": 3,
+    "_pagerank": 0.001348,
+    "_degree_centrality": 0.016556,
+    "_betweenness_centrality": 0.00122,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000296",
+    "label": "Groundedness Detection",
+    "to": [
+      "az000113",
+      "az000174",
+      "az000177",
+      "az000190",
+      "az000294"
+    ],
+    "from": [
+      "az000294"
+    ],
+    "category": "AI Safety; RAG; Azure AI Content Safety",
+    "definition": "A Content Safety capability that assesses whether an LLM response is grounded in supplied source material.",
+    "long_description": "Groundedness detection helps identify responses that are unsupported or inconsistent with the provided grounding sources, improving RAG reliability and safety.",
+    "docs_links": [
+      {
+        "title": "Groundedness detection in Azure AI Content Safety",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/groundedness"
+      }
+    ],
+    "title": "Groundedness detection in Azure AI Content Safety",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/groundedness",
+    "_depth": 3,
+    "_pagerank": 0.001348,
+    "_degree_centrality": 0.019868,
+    "_betweenness_centrality": 0.0031,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
+  },
+  {
+    "id": "az000297",
+    "label": "Protected Material Detection",
+    "to": [
+      "az000113",
+      "az000174",
+      "az000190",
+      "az000294"
+    ],
+    "from": [
+      "az000294"
+    ],
+    "category": "AI Safety; Azure AI Content Safety; Security",
+    "definition": "A Content Safety capability that detects protected material in generated text or code.",
+    "long_description": "Protected material detection helps identify content in model outputs that may reproduce protected material, providing an additional control for generative AI applications.",
+    "docs_links": [
+      {
+        "title": "Azure AI Content Safety documentation",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/"
+      }
+    ],
+    "title": "Azure AI Content Safety documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/",
+    "_depth": 3,
+    "_pagerank": 0.001348,
+    "_degree_centrality": 0.016556,
+    "_betweenness_centrality": 0.00122,
+    "_descendant_ratio": 0.8841,
+    "_prerequisite_ratio": 0.5563,
+    "_reachability_ratio": 0.8845
   }
 ]
